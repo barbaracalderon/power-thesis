@@ -28,24 +28,26 @@
 \usepackage{float}
 
 % Title Information
-\title{The Tor Network and Non-State Actors\\\large An Analysis of Power Diffusion in Three Dimensions}
-
+\title{The Tor Network and Non-State Actors\\\large An Analysis of the Diffusion of Power in Three Dimensions}
 \author{Barbara I. S. Calderon}
 \date{2018}
 
 \begin{document}
 
-\maketitle
+\maketitle  % Generates the title and subtitle
 
-\tableofcontents  
-\listoffigures    
-\listoftables     
+\tableofcontents  % Creates the table of contents
+\listoffigures    % Creates the list of figures (if any)
+\listoftables     % Creates the list of tables (if any)
+
+% Include abstract from separate file
+\include{chapters/abstract}  % Abstract file located in the chapters folder
 
 % Include chapters
-\include{chapters/chapter1}
+\include{chapters/chapter1}  % Replace with actual chapter filenames
 \include{chapters/chapter2}
 
 % References
-\printbibliography
+\printbibliography  % Prints the bibliography using BibLaTeX
 
 \end{document}
