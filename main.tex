@@ -1,0 +1,51 @@
+\documentclass[12pt, a4paper]{report}
+
+% Language and Encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% Formatting
+\usepackage{lmodern}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{setspace}
+\onehalfspacing
+
+% Bibliography (BibLaTeX)
+\usepackage[
+    backend=biber,
+    style=apa, % Common citation style
+    sorting=nyt
+]{biblatex}
+\addbibresource{bibliography.bib}
+
+% Figures and Tables
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{float}
+
+% Title Information
+\title{The Tor Network and Non-State Actors\\\large An Analysis of Power Diffusion in Three Dimensions}
+
+\author{Barbara I. S. Calderon}
+\date{2018}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents  
+\listoffigures    
+\listoftables     
+
+% Include chapters
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+
+% References
+\printbibliography
+
+\end{document}
