@@ -1,0 +1,18 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.bcf
+*.fls
+*.lot
+*.lof
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+
+# Editor specific files
+.vscode/
+.DS_Store
