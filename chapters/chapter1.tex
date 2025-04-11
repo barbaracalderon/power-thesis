@@ -306,3 +306,32 @@ Actors within the knowledge structure have the capacity to influence outcomes th
 
 The column “COUNTRY” displays the name of the country where the newspaper is based; “NEWSPAPER,” the name of the online newspaper; “ARTICLE TITLE,” the title of the examined article; “AUTHOR,” the name of the author (or editor) of the newspaper article; “YEAR,” the month and year of publication in journalistic media; “ACTOR,” the actor or subject derived from the newspaper article and through which variables are examined; “CATEGORY,” the thematic group in which the subject is categorized; “PEERS,” the actor's peers and stakeholders; “AUTHORITY,” the degree of authority of the subject in the given newspaper article;\footnote{The degrees of authority are: increasing, stable, and decreasing. The corresponding values are:
 “+1”, “0”, “-1”} “OBJECT,” the object controlled by the actor according to the article; “CONTROL,” the degree of control the subject has over the object in the article;\footnote{The degree of control can vary between “none,” “partial,” and “total,” with the corresponding values being “0,” “1,” and “2.”} “STATUS-QUO,” the status quo before the actor's intervention; “EFFECT ON REALITY,” whether the actor's actions in the article had real-world effects; and “OUTCOMES,” the degree of change in the status quo in the real world caused by the subject in the given newspaper article.\footnote{The degree of outcomes varies between “change” and “no change” in the status quo. The corresponding values are “+1” and “0.”}
+
+\begin{table}[ht]
+    \centering
+    \caption{\textbf{Database Columns for This Research}}
+    \label{tab:database_columns}
+    \begin{tabular}{lp{10cm}}
+        \toprule
+        \textbf{Column} & \textbf{Information} \\
+        \midrule
+        COUNTRY & Country where the newspaper is located. \\
+        NEWSPAPER & Name of the newspaper responsible for the article. \\
+        ARTICLE TITLE & Title of the article. \\
+        AUTHOR & Author of the article. \\
+        YEAR & Year of article publication. \\
+        ACTOR & Actor whose actions are described in the article. \\
+        CATEGORY & Thematic group of the occurrence. \\
+        PEERS & Identification of peers and interested parties. \\
+        AUTHORITY & Identification of the "AUTHORITY" variable in the occurrence. Receives values: "-1" for decreasing authority, "0" for stable authority, and "+1" for increasing authority. \\
+        OBJECT & Control object of the actor identified in the occurrence. \\
+        CONTROL & Identification of the "CONTROL" variable in the occurrence. Receives values: "0" for no control, "1" for partial control, and "2" for absolute control. \\
+        STATUS-QUO & Presents the status-quo of the occurrence. \\
+        EFFECT ON REALITY & Identifies whether the actor's actions have an effect on reality. If positive, assigns "YES". If negative, assigns "NO". \\
+        OUTCOMES & Identification of the "OUTCOMES" variable in the occurrence. Receives values "0" for no change in status-quo and "1" for change in status-quo. \\
+        REPEATED ARTICLES & "YES" to indicate that the article from which the occurrence was extracted is present in another row of the database, and "NO" to indicate the article's originality. \\
+        \bottomrule
+    \end{tabular}
+    
+    \caption*{\textbf{Source:} Author.}
+\end{table}
