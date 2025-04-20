@@ -16,3 +16,19 @@ Keywords: Diffusion of Power. Dark Web. TOR Network. Structural Power. Relationa
 The original work in Portuguese-BR was published by UFSC University (Brazil) in 2018.
 
 [PDF Here.](https://repositorio.ufsc.br/bitstream/handle/123456789/198805/PGRI0069-D.pdf?sequence=-1&isAllowed=y)
+
+## Translation History
+
+Translated so far:
+
+- 1 Introduction
+  - 1.1 Delimitation of the Theme and Research Question
+  - 1.2 Justifications
+  - 1.3 Objectives
+    - 1.3.1 General
+    - 1.3.2 Specific
+  - 1.4 Methodology
+    - 1.4.1 Variables "authority", "control" and "outcomes"
+    - 1.4.2 Selection of News
+    - 1.4.3 Database Composition for the Research
+  - 1.5 Dissertation Structure
