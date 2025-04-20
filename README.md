@@ -54,3 +54,4 @@ Translated so far:
     - 1.4.2 Selection of News
     - 1.4.3 Database Composition for the Research
   - 1.5 Dissertation Structure
+  - 1.6 Final Considerations
