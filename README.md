@@ -1,5 +1,6 @@
 # Power Thesis
 
+### 🚧 Under Construction
 I am translating my Master's Thesis on Power Dimensions to English.
 
 ### Abstract
@@ -14,4 +15,4 @@ Keywords: Diffusion of Power. Dark Web. TOR Network. Structural Power. Relationa
 
 The original work in Portuguese-BR was published by UFSC University (Brazil) in 2018.
 
-PDF: [Rede TOR e Atores Não-Estatais: Uma Análise de Difusão de Poder em Três Dimensões](https://repositorio.ufsc.br/bitstream/handle/123456789/198805/PGRI0069-D.pdf?sequence=-1&isAllowed=y)
+[PDF Here.](https://repositorio.ufsc.br/bitstream/handle/123456789/198805/PGRI0069-D.pdf?sequence=-1&isAllowed=y)
