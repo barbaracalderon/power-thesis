@@ -26,7 +26,7 @@ communication, privacy, and specific users. This research
 aims, through journalistic articles published between 2007 
 and 2017, to analyze the diffusion of power in the TOR 
 network across three dimensions: authority, control, and 
-results."
+outcomes."
 
 KEYWORDS: Diffusion of Power. Dark Web. 
 TOR Network. Structural Power. Relational Power. 
