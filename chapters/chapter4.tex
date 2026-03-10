@@ -1,0 +1,655 @@
+\chapter{Analysis of the Diffusion of Power in the Tor Network in Three Dimensions}
+
+\setcounter{footnote}{145} % Continue numbering from Chapter 3
+
+The third chapter of this dissertation aims to present the analyses of diffusion of power in three dimensions carried out from a database composed of information derived from journalistic articles. The database presents the variables ``authority,'' ``control,'' and ``outcomes'' that emerge from the operationalization of the three dimensions of the same name. In order to provide context for the variables, we also identified other relevant information such as the identification of peers and stakeholders (relative to the authority dimension), the object considered relevant for achieving the desired outcome by the non-state actor in the context of the article (relative to the control dimension), and the effect on reality (relative to the ``outcomes'' dimension). In addition, the database is composed of other information related to the identification of the newspaper articles such as authors, newspapers, country of headquarters, article title, etc.
+
+The analysis was conducted according to the methodology defined in the Introduction of this dissertation and uses the operationalization of the phenomenon of diffusion of power -- based on the frequency of occurrences of each variable, which allowed us to generate statistical tables. For the purposes of this dissertation, from the readings of the articles we identified non-state actors and grouped them according to themes common to them. From this, we will present the results of the diffusion of power analysis in three dimensions -- authority, control, and outcomes: for each dimension, the results of (a) the individual analysis of each thematic group, (b) the comparative analysis between thematic groups, and (c) the general analysis of total occurrences were presented. The charts, tables, and figures that emerged from the interpretation of the data, together with the database of 139 occurrences, can be found in the appendix of this dissertation.
+
+\section{Journalistic Frequency Regarding the Tor Network}
+
+In order to understand the publicity given by these newspapers to the topic of the anonymous network, we examined the number of articles published per year and, thus, obtained the following chart.
+
+% CHART 1 - NUMBER OF ARTICLES RELATED TO "Tor NETWORK" PUBLISHED PER YEAR (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 1 -- Number of Articles Related to ``Tor Network'' Published Per Year (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    xlabel={Year},
+    ylabel={No. of Articles},
+    ymin=0, ymax=70,
+    xtick={2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017},
+    xticklabel style={rotate=45, anchor=east, font=\small},
+    xticklabel={\pgfmathprintnumber[fixed, precision=0, 1000 sep={}]\tick},
+    ytick={0,10,20,30,40,50,60,70},
+    width=0.9\textwidth,
+    height=7cm,
+    grid=major,
+    grid style={dashed, gray!30},
+    legend style={at={(0.5,-0.35)}, anchor=north},
+]
+\addplot[color=black, mark=square*, thick] coordinates {
+    (2007,1) (2008,2) (2009,2) (2010,1) (2011,4) (2012,3)
+    (2013,43) (2014,60) (2015,32) (2016,18) (2017,29)
+};
+\legend{Published Articles}
+\end{axis}
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+The 195 articles were distributed over a period of one decade, as shown above. From this chart, we can make some observations regarding the average number of articles published prior to 2013, the growth in the number of publications in 2013--2014 and 2017, and the change in level after 2014.
+
+Initially, between the years 2007 and 2012, we observed few articles published by the aforementioned newspapers -- 13 articles in total. This average changes in the following years. In 2013, the number of published articles surpassed the mark of 40. Three subjects were mainly responsible for this increase: (1) the activist organization Tor Project, responsible for the maintenance, improvement, and operationalization of the anonymous network, was cited throughout the news stories that highlighted the Tor network itself or the topic of the Dark Web; (2) the anonymous online marketplace Silk Road, whose main administrator, Ross Ulbricht, was imprisoned by North American authorities in October 2013; (3) and the revelations of Edward Snowden, which exposed the global surveillance scheme perpetrated by the US government and its allies.\footnote{See ``Appendix 5 -- Articles Published in 2013.''}
+
+In 2014, the number of publications reached the level of 60 articles -- 50\% more than the previous year. In addition to the subjects mentioned earlier, three others also contributed to the increase: (a) the rise of the online marketplace Silk Road 2.0, which sought to continue the previous version closed in 2013 by US law enforcement authorities; (b) the operation of transnational child pornography networks through the anonymous network; (c) and the exposure of the topic of privacy and anonymity on the Internet.\footnote{See ``Appendix 6 -- Articles Published in 2014.''}
+
+While in the period of 2013 and 2014 there was growth in the number of published articles related to the Tor anonymous network, in the following years a decrease in the number of these publications occurred. Only in 2017 was there a slight increase. It is relevant to note that after 2014, publications related to the Tor anonymous network shifted to a higher level compared to the period before 2013: previously they did not reach 10 publications per year, and afterward they published no fewer than 15 news articles. This change in level reflects the interest of journalistic coverage in, primarily, the so-called ``anonymous markets'' of the Dark Web. These markets are known especially for trading drugs, narcotics, and other illicit substances. In 2017, for example, the Alphabay marketplace dominated journalistic publications involving the Tor anonymous network. But the change in level also reflects the journalistic coverage given to the arrests of administrators and those responsible for child pornography networks by police authorities of various governments.\footnote{See ``Appendix 7 -- Articles Published in 2017.''}
+
+During this ten-year period, the British newspapers The Guardian and Mail Online and the American newspaper The Washington Post were those that produced the most news articles related to the Tor anonymous network. The Eastern newspapers, Tribune Newspaper, People's Daily Online, and Xinhua News Agency, were those that gave the least publicity to the topic.
+
+% TABLE 4 - NUMBER OF ARTICLES RELATED TO "Tor NETWORK" PUBLISHED BY EACH NEWSPAPER (2007-2017)
+\begin{table}[H]
+\centering
+\caption{Number of Articles Related to ``Tor Network'' Published by Each Newspaper (2007--2017)}
+\begin{tabular}{llc}
+\toprule
+\textbf{Country} & \textbf{Newspaper} & \textbf{N} \\
+\midrule
+England & The Guardian & 64 \\
+England & Mail Online* & 53 \\
+USA & Washington Post & 31 \\
+England & Telegraph Media Group & 17 \\
+USA & Advance Digital** & 17 \\
+USA & The NY Times & 11 \\
+India & Tribune Newspapers & 1 \\
+China & People's Daily Online & 1 \\
+USA & Hearst Newspapers & 0 \\
+China & Xinhua News Agency & -- \\
+\midrule
+ & \textbf{Total} & \textbf{195} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Actors and Thematic Groups Derived from Journalistic Articles}
+
+From the elaboration of the database, we identified 26 actors derived from 139 occurrences (these originating from 125 newspaper articles). These actors were allocated into 5 categories formulated by us that correspond to distinct thematic groups. This classification was elaborated from the reading of the 125 newspaper articles.
+
+The first thematic group, \textbf{Digital Security}, comprises actors related to information and network security: Dan Egerstad; Freedom Hosting; Iranian Cyber Army; Onion Ransomware; Ransomware; SimpleLocker Android Malware; Carnegie Mellon University. The second thematic group, \textbf{Surveillance Circumvention}, encompasses actors that, in some way, ``circumvent'' digital surveillance perpetrated primarily by state actors: Tor Project and Facebook. The third group, \textbf{Online Marketplace}, is composed of anonymous online marketplaces that operate on the Tor network: Silk Road; Silk Road 2.0; Silk Road 3.0; Alphabay; Farmer's Market; Evolution and Sheep Marketplace. The fourth thematic group, \textbf{Journalism \& Whistleblowing}, comprises actors engaged in the disclosure of confidential information or involved with the journalism profession: Edward Snowden; WikiLeaks; SecureDrop System; Strongbox; ProPublica; Harold T. Martin; Chelsea Manning and X-Net Group. And, finally, the group \textbf{Privacy} involves actors that, in some way, are related to data exposure and the privacy of individuals: Doxbin.
+
+% CHART 2 - (%) OCCURRENCES BY THEMATIC GROUP (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+% Draw pie without text, then add labels manually
+\pie[
+    radius=3.5,
+    text=inside,
+    color={blue!80, blue!55, blue!35, blue!20, blue!5},
+    sum=auto,
+    after number=\%,
+    hide number,
+]{
+    41/,
+    38/,
+    15/,
+    5/,
+    1/
+}
+% Legend at bottom
+\node[font=\footnotesize, align=center, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!80, draw=black] (0,0) rectangle (0.3,0.3);} Online Marketplace \quad
+    \tikz{\fill[blue!55, draw=black] (0,0) rectangle (0.3,0.3);} Surveillance Circumvention \quad
+    \tikz{\fill[blue!35, draw=black] (0,0) rectangle (0.3,0.3);} Journalism \& Whistleblowing\\[4pt]
+    \tikz{\fill[blue!20, draw=black] (0,0) rectangle (0.3,0.3);} Digital Security \quad
+    \tikz{\fill[blue!5, draw=black] (0,0) rectangle (0.3,0.3);} Privacy
+};
+% Percentage labels: inside for large slices, outside for small ones
+% pgf-pie starts at 90° (top) going clockwise
+% OM 41%: mid at 90 - 41/2*3.6 = 90 - 73.8 = 16.2°
+% SC 38%: mid at 90 - 41*3.6 - 38/2*3.6 = 90 - 147.6 - 68.4 = -126°  (=234°)
+% J&W 15%: mid at 90 - (41+38)*3.6 - 15/2*3.6 = 90 - 284.4 - 27 = -221.4° (=138.6°→318.6°)
+% DS 5%: mid at 90 - (41+38+15)*3.6 - 5/2*3.6 = 90 - 338.4 - 9 = -257.4° (=102.6°)
+% P 1%: mid at 90 - (41+38+15+5)*3.6 - 1/2*3.6 = 90 - 356.4 - 1.8 = -268.2° (=91.8°)
+\node[font=\footnotesize\bfseries, text=white] at (16:2.0) {41\%};
+\node[font=\footnotesize\bfseries, text=white] at (234:2.0) {38\%};
+\node[font=\footnotesize\bfseries] at (319:2.2) {15\%};
+% DS (5%) slice midpoint ~347°, Privacy (1%) midpoint ~358° — both on the right side
+% 5% and 1% just outside their slices
+\node[font=\footnotesize\bfseries, anchor=west] at (347:3.8) {5\%};
+\draw[thin, gray] (347:3.55) -- (347:3.75);
+\node[font=\footnotesize\bfseries, anchor=west] at (358:3.8) {1\%};
+\draw[thin, gray] (358:3.55) -- (358:3.75);
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 2 -- (\%) Occurrences by Thematic Group (2007--2017)};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+The group that appeared most frequently in newspaper articles, in percentage terms, was the Online Marketplace group, with 41\% of occurrences concerning actors involved in the commercialization of illicit products, services, and goods on the Tor anonymous network. Next came the Surveillance Circumvention group, with 38\% of occurrences reporting actions of the actors that compose this group. The highlight is given to the actor Tor Project, responsible for the maintenance of the Tor anonymous network, improvements, and digital activism. In third place, the Journalism \& Whistleblowing group, with 15\% of occurrences exposing actions of actors who deal with journalism or are, in some way, involved with disclosures. Finally, the Digital Security group, with 5\%, and in last place the Privacy group, with 1\% of occurrences.
+
+The first thematic group, Digital Security, comprises six actors related to the technical security of information and networks in general.
+
+The security researcher, \textbf{Dan Egerstad}, aged 21, was responsible for finding security flaws in the communications of various embassies such as Russia and India. According to Kirk (2007), Egerstad managed to download confidential files. The embassies used the Tor network with the objective of protecting their communications but, as pointed out by Egerstad, they failed to protect the entry and exit nodes of the Tor network with encryption. It is worth remembering that the central nodes of the tunnels created by Tor are automatically encrypted -- but not the entry and exit nodes, which require the user to manually protect them with a cryptographic layer. (KIRK, 2007). The knowledge of the young security researcher enabled the discovery of relevant flaws in communication between the embassies, as well as their remediation.
+
+The \textbf{Iranian Cyber Army} is a group that carries out activities in the cyber domain and works alongside the Iranian government. (CUBRILOVIC, 2009). According to the news story written by Cubrilovic (2009), the group launched attacks on the servers responsible for hosting Twitter's DNS records. With access to the Twitter account, the Iranian Cyber Army altered the DNS records of the address ``twitter.com'' so that, instead of redirecting to the standard server, they pointed to a specific IP address on the Tor anonymous network. This attack coincided with the escalation of diplomatic hostility between Iran and the USA, as well as the incursion of Iranian troops near oil dispute borders. (CUBRILOVIC, 2009).
+
+The next three actors -- \textbf{Onion Ransomware}, \textbf{SimpleLocker Android Malware}, and \textbf{Ransomware} -- are software programs, developed by an individual or group of individuals, whose objective is the ``hijacking'' of certain files or functionalities of user devices. Files and functionalities are returned only upon payment of monetary sums. This type of software is known in the literature as ``ransomware.'' (GAZET, 2014; SCAIFE et al, 2016). Of these three ransomwares mentioned above, the first one, ``SimpleLocker Android Malware,'' was reported in June 2014 by Tom Brewster. According to the journalist, this ransomware attacked devices using the ``Android'' operating system by scanning the memory of the devices to encrypt certain files and, thus, demand payment from the user for data recovery. The files hijacked by this ransomware were sent to servers within the Tor network. (BREWSTER, 2014). The second of these ransomwares, ``Onion Ransomware,'' was reported in July 2014 by Alex Hern. According to the journalist, this ransomware was responsible for hijacking files from user devices, using the Tor network to keep its technical nature and activities hidden. Once the device was infected with the ``Onion,''\footnote{Not to be confused with The Onion Router (Tor) or the technical design known as ``Onion Routing.'' In this case, ``Onion'' is merely the name of this specific ransomware.} it displayed a screen with a 72-hour countdown timer. If payment was not made within this period, the files were discarded. (HERN, 2014). The third ransomware, described by Charles Arthur in 2017 simply as ``Ransomware,'' attacked various hospitals in the United Kingdom. As usual, it demanded the payment of monetary sums for the recovery of data and files. But the payment, in this case, was to be made through the cryptographic digital currency ``Bitcoin'' to a page hosted on the Tor network. (ARTHUR, 2017).
+
+The last actor in this category is the server \textbf{Freedom Hosting}. This server, in 2013, was considered the largest on the Tor anonymous network -- and was generally associated with illicit content. (PETERSON, 2013). In 2013, it was infected by a ``malware'' that is believed to have been implanted by the Federal Bureau of Investigation (FBI) with the objective of taking it out of operation. To achieve this, the malware exploited a security breach in older versions of the conventional ``Firefox'' browser\footnote{The ``Firefox'' company opted to incorporate into its browser features from the Tor browser itself to increase the privacy of its users.} to implant itself in the Freedom Hosting server and use its own code developed for the identification of users who accessed the server. It is noteworthy that the breach was found in the Firefox browser -- that is, there was no security breach in the Tor network itself. (PETERSON, 2013).
+
+The American university \textbf{Carnegie Mellon University} is a private institution in the education sector, headquartered in Pennsylvania, USA. According to Alex Hern (2016), the US Department of Defense funded research at Carnegie Mellon University with the objective of discovering tactics that could remove the ``anonymity'' of Tor network users. The Tor Project organization identified, at the beginning of May 2014, that some nodes of the anonymous network appeared to be directing their efforts toward identifying other nodes and, for this reason, were removed from the network in June of the same year. The following month, in July 2014, researchers at Carnegie Mellon cancelled the public presentation of a paper whose content sought to reveal tactics for identifying the IP addresses of Tor network users. Hern (2016) points out that documents released by the court in the Silk Road case confirmed the involvement of Carnegie Mellon University in the identification of anonymous network nodes, and the information collected was accessed by the FBI. (HERN, 2016).
+
+The second thematic group, ``Surveillance Circumvention,'' highlights two actors that offer means to circumvent digital surveillance: the Tor Project, through the anonymous network of the same name, and Facebook, which is the first social media platform to offer access through the low-latency network.
+
+The non-profit organization \textbf{Tor Project}, responsible for managing the Tor anonymous network, is intimately related to the provision of methods that circumvent digital surveillance, especially perpetrated by some countries in the form of censorship. According to Vitaliev (2008), Bradbury (2008), and Anderson (2009), the Tor Project offered an alternative means of Internet access to users residing in China and Iran, countries recognized for maintaining strict censorship over various content available on the Internet. China is known for using a ``firewall'' system to filter content and restrict the access of Chinese citizens and residents, which became known in the literature as ``The Great Firewall of China.'' (CLAYTON, MURDOCH, WATSON, 2006; ANDERSON, 2012; ENSAFI et al, 2015). The government of Iran, in turn, became known for controlling exit ``gateways'' -- especially in moments preceding elections and during popular unrest. (ANDERSON, 2009). The Tor Project is known for providing ``Tor Bridges''\footnote{More about ``Tor Bridges'' was discussed in Chapter 2.} to users who intend to circumvent censorship and freely use Internet access through the Tor network.
+
+The \textbf{Facebook} platform began as a private network for Harvard University students launched in February 2004 on the Surface Web. Currently, Facebook is a private company headquartered in California and widely used on the Surface Web by users from various countries. In October 2014, according to Fox-Brewster (2014), the social media service opened an address on the Tor network, offering an access channel to users who navigate through the anonymous network. The objective is not to provide anonymity to users who access the service through Tor -- since they access identity profiles when they log into the Facebook service -- but rather to circumvent censorship in authoritarian regions and digital surveillance carried out by local entities, as well as to offer additional layers of connection protection. (MOYER, 2014).
+
+The third thematic group, ``Online Marketplace,'' encompasses seven online markets that operate, or operated, on the Tor network and were popularly known among users as ``black markets of the network'' and publicized on Surface Web news sites. Martin (2013) proposes treating anonymous online markets as part of a new concept of cybercrime -- ``cryptomarket'' -- whose intention is to highlight this emerging area of specific crimes. According to the author, ``a cryptomarket may be defined as an online forum where goods and services are exchanged between parties who use digital encryption to conceal their identities.''\footnote{Some encrypted online markets are considered by the literature. Martin (2013), for example, defines what an ideal market of this type would be: ``Ideal type cryptomarkets may also share the following characteristics: reliance on the Tor network; use of cryptonyms to conceal user identity; use of traditional postal systems to deliver goods; third-party hosting and administration; decentralized exchange networks; use of encrypted electronic currency (e.g. Bitcoin).'' (MARTIN, 2013, p.356). Maddox et al (2015) observe ``cryptomarkets'' as a ``digital demimonde,'' that is, an isolated and marginalized world from everyday life that operates on the ``fringes of the publically accessible Internet (through Tor) and social mores.'' (MADDOX et al, 2015, p.111--112).} (Ibid., p.356). The types of goods and services traded in ``cryptomarkets,'' especially the illegal trade of drugs, justify the treatment of these markets as part of the concept of cybercrimes. In any case, the literature on the subject emphasizes the modernity of the phenomenon of anonymous online markets and the challenge they present to law enforcement.\footnote{The anonymous character is conferred through the use, also, of cryptographic digital currency to make payments -- such as, for example, the Bitcoin currency. (BARRATT; LENTON; ALLEN, 2012, p.6).} (BARRATT, LENTON, ALLEN, 2012; CHRISTIN, 2013; MARTIN, 2013; RON, SHAMIR, 2014; VAN HOUT, BINGHAM, 2014).
+
+The first of these markets, and the most well-known and widely discussed in the literature, is the online marketplace \textbf{Silk Road} -- launched in February 2011, as a hidden service of the low-latency Tor network, and shut down by the FBI on October 2, 2013. (CHRISTIN, 2013; BIRYUKOV, PUSTOGAROV, WEINMANN, 2014; BRADBURY, 2014; RON, SHAMIR, 2014; VAN HOUT; BINGHAM, 2014; MADDOX et al, 2015). Its name alludes to the ancient Silk Road, a trade network that connected the European, African, and Asian continents.\footnote{``Silk Road moderators explained the websites name and beginnings: `The original Silk Road was an old world trade network that connected Asia, Africa and Europe. It played a huge role in connecting the economies and cultures of those continents and promoted peace and prosperity through trade agreements. It is my hope that this modern Silk Road can do the same thing, by providing a framework for trading partners to come together for mutual gain in a safe and secure way'.'' (PHELPS; WATTS, 2014, p.5).} (PHELPS; WATTS, 2014). It became known as an encrypted marketplace specializing in the illegal trade of drugs. (MADDOX et al, 2015). According to Christin (2013, p.8), the 4 most popular categories\footnote{Christin (2013) conducted a study that tracked the anonymous Silk Road marketplace between the period of February 3, 2012 and July 24, 2012, and during this period was able to verify the volume of 24,385 items (unique, that is, not repeated) being traded. The market distinguished around 220 different product categories ranging from digital products to narcotics and prescription medications.} of the market are related to drugs, while 6 categories in the ``top 10'' and 16 categories in the ``top 20'' are related to narcotics and drugs. Thus, despite not exclusively trading drugs, the marketplace predominantly dealt with the commerce of narcotics -- offered by various different vendors.\footnote{Corroborating this view are Biryukov, Pustogarov, and Weinmann (2013): ``Silk Road is a market that operates mostly in contraband goods using Bitcoin as currency. According to a recent study primarily narcotics and other controlled substances are sold on this platform.'' (BIRYUKOV; PUSTOGAROV; WEINMANN, 2013, p.81).} Drugs were traded, above all, in small quantities so as to serve the interests of users.\footnote{{[}\ldots{]} ``most transactions conducted via Silk Road are for purchases of relatively small amounts of illicit drugs. This means that the volume of drugs which most buyers receive is relatively small and (depending on jurisdiction) would likely constitute a lower-level drug possession rather than commercial trafficking charge.'' (MARTIN, 2013, p.360--361). Regarding the economic impact, Martin (2013, p.353) states that, while the American trade generated approximately 300 billion US dollars in 2005, the Silk Road corresponded to a smaller trade of approximately 23 million US dollars in the same year.} (MARTIN, 2013). For these reasons, in addition to presenting a user-friendly online shopping interface, the Silk Road marketplace became known as the ``E-Bay of Drugs.'' (VAN HOUT; BINGHAM, 2014; MARTIN, 2013; PHELPS, WATTS, 2014; MASONI, GUELFI, GENSINI, 2016).
+
+The administration of Silk Road was carried out by one person, whose identity remained unknown during its operation, who called himself ``Dread Pirate Roberts'' (DPR) and who controlled all aspects of operations.\footnote{Phelps and Watts (2014, p.2) point out that the identity behind the pseudonym ``Dread Pirate Roberts'' cannot be confirmed as belonging to a single person. Probably, the difficulty in confirming the exclusivity of the pseudonym solely to Ulbricht occurs due to the origin of the pseudonym itself -- in the film ``Princess Bride,'' 1987, directed by Rob Reiner, ``Dread Pirate Roberts'' was the pseudonym used by various characters who performed the same role across generations.} (RON; SHAMIR, 2014). When the marketplace was shut down by law enforcement, his identity was revealed: he was the American citizen Ross Ulbricht -- who at the time of his capture was 29 years old. (BRADBURY, 2014). According to the documentary ``Deep Web,'' 2015, directed by Alex Winter, which recounts the journey of Ross Ulbricht, during the creation of the black market, the young American left clues about his identity on the Surface Web -- such as his personal email address on online communication forums. The closure of the marketplace was considered the first significant act by law enforcement in disrupting the environment of a cryptographic online market and occurred in October 2013. (MADDOX et al, 2015, p.122). However, shortly after this event, other cryptographic online markets dedicated to anonymous transactions emerged, such as Silk Road 2.0, ``Atlantis,'' and ``Agora.''\footnote{On this topic, Lacson and Jones (2016) argue that the end of the popular market does not mean the interruption, or the end, of the Dark Web environment -- since its ending can be interpreted as part of a continuous narrative, and of the development, of the Dark Web's black markets. Christin (2013, p.2) further notes the existence of other anonymous online markets such as ``Black Market Reloaded,'' ``The Armory,'' and ``The General Store.''} (BERGHEL, 2017).
+
+The closure of the online black market Silk Road did not indicate the end of online markets that operate services on the Tor network. (POWER, 2013). In fact, in the month following the closure of the Silk Road by the FBI and DEA, the second version of the black market emerged: \textbf{Silk Road 2.0} -- whose intention was to continue the Silk Road brand under new leadership. (DEMANT; MUNKSGAARD; HOUBORG, 2016). According to Demant, Munksgaard, and Houborg (2016), in the period between November 2014 and April 2015, the Silk Road 2.0 marketplace traded approximately 66 million US dollars -- Cannabis was the best-selling product. The marketplace was managed by Blake Benthall, a 26-year-old American resident of California, a software engineer in Silicon Valley -- more precisely, he worked for Elon Musk's company ``SpaceX.'' (ASSOCIATED PRESS; PRIGG, 2014). One year after its opening, Blake Benthall was arrested by American law enforcement during an international operation orchestrated by different countries, ``Operation Onymous,'' with the involvement of Europol and whose objective was to deter crimes related to drug trafficking conducted in the cyber domain. Law enforcement agents infiltrated the black market, gaining trust and receiving compensation to administer certain sections of Silk Road 2.0 -- which gave them access to privileged information. (FOX-BREWSTER, 2014; RUSHE, 2014).
+
+Again, in November 2014, following the closure of the online marketplace Silk Road 2.0, the \textbf{Silk Road 3.0 Reloaded} marketplace appeared on the Tor anonymous network -- continuing the Silk Road brand. (ASSOCIATED PRESS, 2014).
+
+Another influential black market on the Tor network was the \textbf{Sheep Marketplace}, which emerged shortly after the closure of the first Silk Road and was ``invaded'' by vendors and consumers seeking an alternative marketplace to continue their commercial transactions. (GARDNER, 2013). This black market also traded various products, among which drugs and weapons were the main ones. Like the Silk Road, the Sheep Marketplace conducted financial transactions in Bitcoin, and also adopted the payment mechanism known as ``escrow.''\footnote{This system was characteristic of the Silk Road marketplace. Its objective was to provide some degree of trust in financial transactions between buyers and sellers -- since both are anonymous in the black market. According to Bradbury (2014), its functioning was as follows: ``Customers would send their payment in bitcoins to an electronic address operated by Ulbricht, who also employed several administrators. Silk Road would then act as an escrow service, holding the funds until the customer confirmed that they had received the goods. The service would then release the money after taking a commission.'' (BRADBURY, 2014, p.15). Phelps and Watts (2014) complement, stating that the system ``Escrow provided users with a level of security from potential fraudulent transactions in the marketplace. The Bitcoins were held in an account managed by Silk Road administrators and once the item had been shipped by the seller Silk Road would remove a predetermined amount of commission and finalise the purchase by releasing the remaining funds to the seller.'' (PHELPS; WATTS, 2014, p.3)} However, shortly after receiving a large volume of orphaned users from Silk Road, the Sheep Marketplace closed its doors, taking with it large quantities of Bitcoin from users registered on the marketplace -- which raised suspicions that, in reality, it was a scheme to seize Bitcoins. (GARDNER, 2013).
+
+The \textbf{Farmer's Market} black market also operated on the Tor anonymous network, but, unlike the others, accepted other forms of payment that were not in the cryptographic digital currency Bitcoin -- such as cash and transactions via Paypal and Western Union. (ASSOCIATED PRESS, 2012). This marketplace was managed by eight men of different nationalities who, together, promoted the meeting between drug suppliers -- such as LSD, Ecstasy, and Ketamine -- and potential consumers through the online marketplace. Law enforcement from the USA, Colombia, the Netherlands, and Scotland worked together in ``Operation Adam Bomb,'' whose objective was to arrest the eight individuals -- and they carried out this activity successfully. (ASSOCIATED PRESS, 2012). In this same vein, the \textbf{Evolution} marketplace also acted, which also saw its number of users grow after the capture of Ross Ulbricht, the administrator of Silk Road best known by the alias ``Dread Pirate Roberts.'' This marketplace, which also served as a meeting point between sellers and buyers of illicit merchandise, likewise disappeared from the Tor anonymous network, but not before taking with it large sums of Bitcoins held in the marketplace's ``escrow'' system. (FARRELL, 2015). This ``disappearance'' from the network led researcher Henry Farrell (2015) to conclude that, in order to eradicate black markets from the Dark Web, it suffices for law enforcement to make an impact by apprehending a sufficient number of administrators behind the marketplaces so that the others ponder the long-term future of the marketplace and desist from operating criminally on the network.
+
+Finally, the last online black market of the Tor anonymous network to appear in the newspaper articles that compose the database of this research is the \textbf{AlphaBay} marketplace. Similar to the others, this marketplace also enabled the commercial transaction of various illicit substances and diverse services. Moreover, it was one of the marketplaces with the longest active operating time -- from December 2014 to July 2017. (TZANETAKIS, 2018). It is estimated that the ``Stimulants'' category, such as cocaine, represented 20.98\% of the substances traded on the marketplace -- followed by the ``Cannabis \& Hashish'' category, with 18.47\%, ``Opioids,'' 12.69\%, and ``Ecstasy'' fourth, with 11.69\%. (TZANETAKIS, 2018). While active, the AlphaBay marketplace was considered one of the largest online drug markets, in terms of number of products and page users -- providing a highly competitive environment. (PAQUET-CLOUSTON; HETU; MORSELLI, 2018). On the AlphaBay marketplace, sellers were required to pay a registration fee that cost around 200 US dollars -- a value considered low for entry into the digital market. (Ibid., p.95). In July 2017, AlphaBay was shut down by law enforcement coordinated by different agencies across various countries. (TZANETAKIS, 2018).
+
+The fourth thematic group of this research, ``Journalism \& Whistleblowing,'' encompasses eight actors who are in some way related to journalism activities or disclosures of corporate and/or governmental schemes or secrets. Some of them are quite well known to the general public.
+
+The non-profit organization \textbf{WikiLeaks} gained notoriety in 2010 after the disclosure of confidential information from American embassies, coordinating with five other major globally circulated newspapers -- The New York Times, The Guardian, Der Spiegel, Le Monde, and El País. Additionally, it also became known for exposing a video (known as ``Collateral Murder''), referring to the Iraq War, of a US military helicopter deliberately attacking Iraqi civilians and, among them, a Reuters photographer and his driver. (BENKLER, 2011; CURRAN, GIBSON, 2012). The actions of the WikiLeaks group led scholars to rethink the landscape of diplomacy and secrecy following the document revelations. (HOOD, 2011; PAGE, SPENCE, 2011; BENKLER, 2011). The former principal spokesperson of the organization, Julian Assange, currently resides in asylum at the Embassy of Ecuador in London, England. The WikiLeaks group's website on the Surface Web provides details about the Tor software and explains to interested users the necessary procedures to install the program on their network access device. (WIKILEAKS, 2016).
+
+\textbf{Chelsea Manning}, previously known as Bradley Manning, served in the American army during the Iraq War as an Intelligence Analyst, being responsible for the leak of secret documents to the WikiLeaks organization over several months, serving as its principal source. (ROTHE, 2013; MERCK, 2015). Manning was subsequently arrested by American authorities -- accused of violating the Espionage Act and other crimes against the USA -- and sentenced to 35 years in prison on August 21, 2013. (HACKL; BECKER; TODD, 2016). She received a presidential pardon from the 44th American president, Barack Obama, and was released in May 2017. (PILKINGTON, 2017).
+
+\textbf{Edward Snowden}, former employee of the company Booz Allen Hamilton, which maintained contractual services with the American government, was responsible for providing to the British newspaper The Guardian documents related to the PRISM program -- whose objective was the collection of personal data of millions of individuals through mass digital espionage conducted over Internet communications. (LANDAU, 2013). The collection of documents leaked by Edward Snowden became known in the literature as ``The Snowden Files.'' (CHADWICK; COLLISTER, 2014). The PRISM program was responsible for collecting metadata of domestic US communications, storing them in cloud service providers. (LANDAU, 2013). The British agency Government Communications Headquarters (GCHQ), equivalent to the NSA for the USA, permitted the surveillance of the American agency over British citizens. (CHADWICK; COLLISTER, 2014). After the revelations in 2013, Snowden received asylum from the Russian government and took up residence in the country. (MURATA; ADAMS; PALMA, 2017). Since then, he has advocated in favor of privacy and supported the Tor Project organization and the network maintained by it. (LEE, 2015). The anonymous network is, in fact, a target of attacks by the NSA and GCHQ -- however, without success. (BALL; SCHNEIER; GREENWALD, 2013).
+
+The newspapers The Guardian and The New Yorker both presented secure channels, via the Tor anonymous network, so that tips to journalistic editorial offices could be made by the public using the Internet. In 2013, the newspaper The New Yorker launched the anonymous information-sharing service \textbf{Strongbox}, which functions via Tor and allows shielded communication between journalists and sources. (PILKINGTON, 2013). Similarly, the newspaper The Guardian launched in 2014 the anonymous information-sharing platform \textbf{SecureDrop System}, so that whistleblowers could submit confidential documents to journalists of the institution. (BALL, 2014).
+
+The \textbf{X-Net Group} is a cyberactivist group composed of more than 200 volunteers that operates in Spain along the lines of WikiLeaks but is involved in the country's politics and courts of justice. The group created a communication channel, via the Tor anonymous network, so that individuals could share confidential documents and assist in the fight against corruption. Only volunteers registered as ``journalists'' have access to the documents, for legal reasons. In October 2014, the group was responsible for denouncing corruption schemes involving high-ranking officials of the bank Bankia -- a Spanish bank founded in 2010 during Spain's financial restructuring process. (ASSOCIATED PRESS, 2014).
+
+Three years after Snowden's revelations, \textbf{Harold T. Martin III}, a former lieutenant of the American Navy, was arrested by US government authorities on charges of espionage and theft of confidential documents. Like Snowden, Harold Martin also worked for the company Booz Allen, which maintained contractual services with the NSA. The authorities discovered large quantities of secret government documents at his residence, whose content consisted of files from the period 1996--2016. The former agent, trained in computer security, pursuing a doctorate in ``Information Security Management,'' Martin maintained communications in the Russian language and used cryptographic technologies that enabled online anonymity. In particular, the ``Tails'' operating system that redirects data traffic through the Tor anonymous network. (ASSOCIATED PRESS, 2016).
+
+The non-profit organization \textbf{ProPublica} is considered the largest independent investigative newsroom in the world, headquartered in New York and a Pulitzer Prize winner. It was created by the charity foundation ``The Sandler Family Supporting Foundation,'' which donates approximately 10 million dollars annually to the organization with the objective of strengthening democracy. (BROWNE, 2016). ProPublica's investigative journalism launched a news platform on the Dark Web in 2016, through the Tor anonymous network -- whose objective is to protect the communications of users and the servers that store the information. Since 2016, users in countries that censor the web, such as China, can visit the ProPublica platform on the Tor network to follow news without fearing censorship and the tracking of data and activities. Furthermore, users can also share secret documents and information through ProPublica's whistleblowing service on the anonymous network. (JACKSON, 2016).
+
+The ``Privacy'' category is composed of the actor Doxbin, one of the pages of the Tor anonymous network that seeks to disclose personal data and private information of individuals on the network.
+
+The page on the Tor anonymous network, \textbf{Doxbin}, was shut down in 2014 by joint police authorities during Operation Onymous. (FOX-BREWSTER, 2014). The Doxbin page practiced what became known in the literature as ``doxing'' -- the theft of personal data with the objective of maliciously denigrating or discrediting individuals. (LIBICKI, 2017). The practice of doxing is considered an abuse whose objective is to harm one of the parties through the disclosure of sensitive data and information, and its motivations are varied: from personal to political reasons. (SNYDER et al, 2017). According to Fox-Brewster (2014), as soon as the page was taken down, the individual with access to the servers, known by the online alias ``nachash,'' leaked the site's records in the hope that others could identify the means by which police authorities captured the domain. However, despite having confiscated the domain, the content of the servers remains within reach of the Doxbin site's collaborators -- requiring ``only'' that they configure a domain for public access. (FOX-BREWSTER, 2014).
+
+Of the total of 25 actors present in the database of this research, 5 account for 80\% of the total number of occurrences. The Tor Project accounts for approximately 35\% of total occurrences, followed by the online marketplace Silk Road and its later version, Silk Road 2.0. The former NSA agent, Edward Snowden, accounts for approximately 8\% of occurrences, while the online marketplace AlphaBay accounts for approximately 7\% of the total.
+
+% CHART 3 - TOP 5 ACTORS BY PERCENTAGE OF OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 3 -- Top 5 Actors by Percentage of Occurrences (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=40,
+    ytick={0,5,10,15,20,25,30,35,40},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={Tor Project, Silk Road, Silk Road 2.0, Edward Snowden, AlphaBay, Others},
+    xtick=data,
+    xticklabel style={rotate=30, anchor=east, font=\small},
+    bar width=18pt,
+    width=0.9\textwidth,
+    height=7cm,
+    nodes near coords={\pgfmathprintnumber\pgfplotspointmeta\%},
+    nodes near coords style={font=\footnotesize},
+    every node near coord/.append style={anchor=south},
+    fill=blue!50,
+]
+\addplot coordinates {
+    (Tor Project, 35) (Silk Road, 20) (Silk Road 2.0, 10)
+    (Edward Snowden, 8) (AlphaBay, 7) (Others, 20)
+};
+\end{axis}
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+\section{Diffusion of Power: Actors, Thematic Groups, and Total Occurrences}
+
+Our analysis of the diffusion of power was conducted based on the three defined dimensions -- authority, control, and outcomes. Each dimension had its own analysis, since the dimensions are distinct and the variables (of the same name) operate on different scales.
+
+The analysis was carried out in three segments: first, at the level of actors -- in which each actor was analyzed individually based on the occurrences in which they are the protagonist; second, at the level of thematic groups -- at which point the set of actors with similar themes was gathered and the total occurrences of the group were analyzed; and third, in a general manner -- the analyses were conducted based on all occurrences from the period between 2007--2017. With this, we sought to provide a diagnosis of the diffusion of power according to journalistic publications from the aforementioned period regarding the low-latency anonymous network Tor -- in order to answer our research question. We emphasize that the individual analysis by actor provides sufficient input to identify the preponderant actor within each thematic group. The general table containing the analyses of each dimension by actor, thematic group, and total occurrences can be found in the appendix of this dissertation.\footnote{See ``Appendix 9 -- Analysis of Diffusion of Power by Actor and Group.''}
+
+\subsection{The ``Authority'' Dimension}
+
+The thematic group with the highest number of occurrences is Online Marketplace (57 occurrences or 40.7\% of the total). In the \textbf{authority} dimension, we verified that there was a decrease in the authority of the actors that compose the group in 47 occurrences. In the remaining 10 occurrences there was a tie: in 5 occurrences the authority remained stable, and in another 5 there was growth in authority. In total, we perceive that there was more decrease in the authority of the actors that compose the ``Online Marketplace'' group than stability or growth. It is worth remembering that the actors that compose this group are the anonymous ``black markets'' of the low-latency Tor network -- responsible for administering a meeting space between sellers and buyers of illicit products, acting as promoters of commercial transactions of drugs and narcotics, primarily.
+
+There are two hypotheses that explain the decrease in authority of these actors that operate via the anonymous network. The first hypothesis is that the newspapers selected for this research prioritize the publication of news that reports the arrest of the administrators responsible for the black markets, or the closure of the online marketplace domain on the anonymous network -- that is, public access to the marketplaces through Tor. The second hypothesis is that, in fact, more closures and arrests are occurring than proliferation of anonymous markets and success cases -- that is, those that operate freely via Tor, without interference from police authorities.
+
+Be that as it may, the decline in authority of the anonymous markets reflects the ``distrust'' of peers and stakeholders (market customers, private citizens interested in consuming the products sold, and individuals interested in administering similar markets and earning proceeds from sales commissions) regarding the markets in question. If the published news reflects arrests and closures of anonymous markets, the authority of these does not remain stable or growing over time -- on the contrary, it demonstrates decline. This decline is a reflection of the power relationship between the authority of the State and the authority of anonymous markets: while the latter see their authority decline (due to market closures and administrator arrests), the former observe their authority grow before society as they achieve the results they themselves aimed for. Therefore, based on the analyzed occurrences, derived from news articles published by the ten largest newspapers by number of users per click, we can affirm that the power of online markets that operated on the Tor anonymous network between 2007 and 2017, in the authority dimension (which concerns the trust of peers and stakeholders), suffered more decline than stability or growth.
+
+The second thematic group with the highest number of occurrences, 54, is the ``Surveillance Circumvention'' group. We verified that the largest share of these occurrences reflects growth or stability of the authority of the actors that compose the group. In 27 occurrences there was growth in authority; in 18 occurrences it was verified that authority remained stable; only in 9 occurrences was there a decline in authority. The stability and growth of the group's authority reflects the success of non-state actors both in circumventing, through the Tor anonymous network, the censorship regime in the digital domain imposed by authoritarian countries such as China and Iran, and in maintaining the anonymity of their identities and operations. In particular, the highlight goes to the actor Tor Project which, through the maintenance and improvement of the network, as well as the adoption of techniques pertinent to activism in general, was largely responsible for offering an alternative communication channel for Internet navigation. The increase in authority of non-state actors, or at least the stability of this authority, seems to reflect the difficulty of States in general in maintaining the regime of censorship and blocking of cyber regions for public access. Therefore, based on the analyzed occurrences, we can affirm that the power, in the authority dimension (which reflects the trust and interest of peers), of actors that offer an alternative communication channel to censorship and blocking imposed by rigid state mechanisms, increased during the period between 2007 and 2017.
+
+The third thematic group by order of occurrences is ``Journalism \& Whistleblowing,'' with 21 occurrences examined. As with the previous thematic group, we verified that the actors in this group have experienced growth in authority, or at least stability. In 16 occurrences, growth in authority was verified, and in 5 occurrences, stability. In no occurrence was a decline in the authority of any actor in the group found, whether whistleblower, journalist, or activist group working with sensitive information. Within the group, the highlight was Edward Snowden, with 11 occurrences, of which 9 reflected growth in authority and 2 reflected stability. Snowden's revelations detailed, through files and documents originating from the NSA, the mass digital surveillance perpetrated by the US government and its allies. From the reading of the articles, an increase in trust placed in the figure of the whistleblower by peers and stakeholders was verified -- including because he had formally been an operative part of the surveillance scheme.
+
+In this sense, from the analysis of occurrences made regarding the ``Journalism \& Whistleblowing'' group, we can affirm that there was an increase in the power of these non-state actors in the authority dimension. One hypothesis for the absence of decrease in authority of these actors is that the Tor anonymous network, during the analyzed period, provided a secure means of communication so that whistleblowers of great relevance could transmit to journalists and other professionals who deal with confidential information documents and files that substantiate the disclosures. That is, the low-latency anonymous network Tor offered a communication channel seen as sufficiently secure to attract high-risk whistleblowers -- whether due to their position within the governmental apparatus, or due to the confidential nature of the information in their possession. Furthermore, it also served as a means of receiving confidential information by the editorial body of conventional newspapers and activist organizations.\footnote{In addition to Edward Snowden, other whistleblowers who appeared in the analyzed occurrences were Chelsea Manning, responsible for transferring secret documents from the American armed forces to the WikiLeaks organization, and Harold T. Martin, who like Edward Snowden, also worked for the company Booz Allen Hamilton that provided services for the NSA. As for the WikiLeaks organization, the activist group X-Net Group, the newspaper The Guardian (SecureDrop System), The New Yorker (Strongbox), and ProPublica offer communication and document submission channels, through the Tor anonymous network, so that whistleblowers can carry out their disclosures.} For this reason, whistleblowers, newspapers, and activist organizations saw the trust placed in them by peers and stakeholders increase during the investigated period.
+
+The fourth thematic group, ``Digital Security,'' accounts for 7 analyzed occurrences. Each actor in the group was responsible for 1 occurrence, totaling 7 actors and 7 occurrences. With the exception of the actor Freedom Hosting, growth in authority was verified in the remaining actors. Upon suffering infiltration by malware, which is believed to have been implanted by FBI agents, the Freedom Hosting server, accessible only through the Tor anonymous network, allowed authorities access to the information stored on it. It is worth remembering that the server hosted files and documents largely pertaining to child pornography. For this reason, the authority of the Freedom Hosting server suffered a decline, given that the trust of peers and stakeholders in allocating and accessing information on it entered decline due to the fear of discovery of the identities behind the visiting users. The remaining actors comprise malicious software, researchers, and digital security professionals who operate on the anonymous network -- these saw the trust placed in them by peers and stakeholders increase.
+
+The fifth and last group, ``Privacy,'' comprises a single observation of a single actor, the Doxbin page responsible for gathering in a single location the exposure of private data of individuals. It was verified that there was no growth or decrease in the authority of this page, but rather stability of authority. That is, the trust of peers and stakeholders did not increase, nor did it decrease; it merely maintained itself.
+
+% CHART 4 - (%) OCCURRENCES BY THEMATIC GROUP IN THE AUTHORITY DIMENSION (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 4 -- (\%) Occurrences by Thematic Group in the Authority Dimension (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar stacked,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=115,
+    ytick={0,10,20,30,40,50,60,70,80,90,100},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={Decrease, Stability, Growth},
+    xtick=data,
+    xlabel={\textbf{Authority}},
+    bar width=26pt,
+    width=0.52\textwidth,
+    height=8cm,
+    clip=false,
+    legend style={at={(0.5,-0.25)}, anchor=north, font=\footnotesize, legend columns=2},
+    legend cell align={left},
+    enlarge x limits=0.35,
+]
+% Digital Security (bottom)
+\addplot[fill=blue!80, draw=black] coordinates {
+    (Decrease, 1.8) (Stability, 0) (Growth, 11.1)
+};
+% Online Marketplace
+\addplot[fill=blue!55, draw=black] coordinates {
+    (Decrease, 82.5) (Stability, 20.8) (Growth, 9.3)
+};
+% Journalism & Whistleblowing
+\addplot[fill=blue!35, draw=black] coordinates {
+    (Decrease, 0) (Stability, 20.8) (Growth, 29.6)
+};
+% Surveillance Circumvention
+\addplot[fill=blue!20, draw=black] coordinates {
+    (Decrease, 15.8) (Stability, 54.2) (Growth, 50.0)
+};
+% Privacy
+\addplot[fill=blue!5, draw=black] coordinates {
+    (Decrease, 0) (Stability, 4.2) (Growth, 0)
+};
+\legend{Digital Security, Online Marketplace, Journalism \& Whistleblowing, Surveillance Circumvention, Privacy}
+
+% Save coordinates for label placement after axis (so labels render on top of bars)
+\coordinate (D2) at (axis cs:Decrease, 1.8);
+\coordinate (D82) at (axis cs:Decrease, 43);
+\coordinate (D16) at (axis cs:Decrease, 92);
+\coordinate (S21a) at (axis cs:Stability, 10.4);
+\coordinate (S21b) at (axis cs:Stability, 31.2);
+\coordinate (S54) at (axis cs:Stability, 68.9);
+\coordinate (S4) at (axis cs:Stability, 97.9);
+\coordinate (S4out) at (axis cs:Stability, 108);
+\coordinate (G11) at (axis cs:Growth, 5.6);
+\coordinate (G9) at (axis cs:Growth, 15.7);
+\coordinate (G30) at (axis cs:Growth, 35.2);
+\coordinate (G50) at (axis cs:Growth, 75);
+
+\end{axis}
+
+% Now draw labels on top of everything
+% Decrease bar
+\node[font=\footnotesize\bfseries, anchor=south] at (D2) {2\%};
+\node[font=\footnotesize\bfseries, text=white] at (D82) {82\%};
+\node[font=\footnotesize\bfseries] at (D16) {16\%};
+
+% Stability bar
+\node[font=\footnotesize\bfseries, text=white] at (S21a) {21\%};
+\node[font=\footnotesize\bfseries] at (S21b) {21\%};
+\node[font=\footnotesize\bfseries] at (S54) {54\%};
+\node[font=\footnotesize\bfseries] at (S4out) {4\%};
+
+% Growth bar — move 9% inside its segment and 30% clearly in its own
+\node[font=\footnotesize\bfseries, text=white] at (G11) {11\%};
+\node[font=\footnotesize\bfseries, text=white] at (G9) {9\%};
+\node[font=\footnotesize\bfseries] at (G30) {30\%};
+\node[font=\footnotesize\bfseries] at (G50) {50\%};
+
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+Through the percentage chart of diffusion of power in the authority dimension, it is possible to make some comparative interpretations between the thematic groups.
+
+Among all thematic groups, the one with the highest percentage of decrease in authority is the ``Online Marketplace'' group. In fact, from the journalistic articles analyzed in this research, it was verified that the majority exposed two major subjects -- those related to the arrest and trial of the administrators behind the anonymous markets, and those related to the closure of the domain by police authorities. Both subjects affect the degree of trust placed in the markets that operate on the Tor anonymous network and diminish the authority of these before peers and stakeholders.
+
+The ``Surveillance Circumvention'' group is the one with the highest percentage of stability and growth in authority. The analyzed newspaper articles evidenced, primarily, two consequences of the operations of the actor Tor Project, responsible for the maintenance and improvement of the anonymous network. The first consequence refers to the censorship and blocking of content in the cyber domain by authoritarian States. The Tor Project offers alternative access to prohibited content, becoming an important ally of activists and whistleblowers in regions whose information governments seek to control. The second refers to the protection of the content of messages exchanged through the anonymous network and the protection of the identity of users who operate on the network. These protections circumvent the surveillance system perpetrated primarily by governmental actors. For these reasons, the trust placed, by peers and stakeholders, in the activist organization Tor Project has grown -- which is reflected in the analysis.
+
+It is also worth highlighting the ``Journalism \& Whistleblowing'' thematic group, which stands as the second group with the highest percentage growth in authority -- behind only the ``Surveillance Circumvention'' group. The growth in authority reflects the increase in trust placed by peers and stakeholders in the group's actors for using the anonymous network as a channel for transmitting sensitive information -- given that the network offers protection of privacy and anonymity to users.
+
+% CHART 5 - DIFFUSION OF POWER, DIMENSION "AUTHORITY", (%) OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\pie[
+    radius=3.5,
+    hide number,
+    color={blue!60, blue!35, blue!15},
+    sum=auto,
+    after number=\%,
+]{
+    41/{},
+    21/{},
+    38/{}
+}
+% Percentage labels inside slices
+% pgf-pie: starts at 90° going clockwise → angles: Decrease mid=90-73.8=16.2°, Stability mid=90-147.6-37.8=-95.4°(=264.6°), Growth mid=90-223.2-68.4=-201.6°(=158.4°)
+\node[font=\footnotesize\bfseries, text=white] at (16.2:2.2) {41\%};
+\node[font=\footnotesize\bfseries] at (264.6:2.2) {21\%};
+\node[font=\footnotesize\bfseries, text=white] at (158.4:2.2) {38\%};
+% Title
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 5 -- Diffusion of Power, Dimension ``Authority''\\(\%) Occurrences (2007--2017)};
+% Legend at bottom
+\node[font=\footnotesize, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!60, draw=black] (0,0) rectangle (0.3,0.3);} Decrease \quad
+    \tikz{\fill[blue!35, draw=black] (0,0) rectangle (0.3,0.3);} Stability \quad
+    \tikz{\fill[blue!15, draw=black] (0,0) rectangle (0.3,0.3);} Growth
+};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+The chart above pertains to all occurrences between 2007--2017 that were analyzed by this research, without identifying actors or thematic groups.
+
+It is possible to observe that in the ``authority'' dimension, the highest percentage of occurrences analyzed in this research refers to the decrease in authority of non-state actors. The second highest percentage of occurrences indicates that there was growth in the authority of non-state actors, while 21\% of occurrences points to the stability of authority. However, if we admit that the diffusion of power occurs from the non-decrease of non-state authorities, then we can consider that the diffusion of power, in this case, is the result of the percentage of growth and, at most, of stability of authority. That is, at a minimum, the non-state actor that already possessed some degree of authority managed to maintain this degree, while the one that had no degree of authority saw its authority grow -- or rather, go from \textit{no} authority to \textit{some} authority. This scenario is different from the one that only considers the growth of authority, for in that case, all other non-state actors that \textit{already possessed} some degree of authority are excluded from the analysis. For this reason, we can think that the diffusion of power is occurring from the moment that, at a minimum, a non-state actor with some degree of authority over matters derived from the set of values originating from social organization is verified.
+
+Thus, in the set of occurrences analyzed by this research, we observe that in approximately 59\% of them, the authority of the non-state actor, belonging to the knowledge structure, grew or at least did not diminish by reason of using the low-latency anonymous network Tor.
+
+\subsection{The ``Control'' Dimension}
+
+In the \textbf{control} dimension, it is noted that all actors in the ``Online Marketplace'' category held some degree of control over relevant objects -- in this case, the online marketplace itself and payment mechanisms. In 29 occurrences, partial control of the anonymous market over the virtual meeting space between buyers and sellers and the payment system used by them to carry out commercial transactions was observed. In 28 occurrences, absolute control of the anonymous markets was observed. There were no cases in which control was considered ``none.''
+
+In the news articles published on the topic, in a significant portion, the absolute control of the online market is verified. In these occurrences, the control of the market is absolute because it is responsible for providing the virtual meeting space between buyers and sellers and also the payment system in its entirety -- not relying on third parties, such as banks or card networks, etc. The payment system, in this case, is based on cryptographic virtual currency (generally Bitcoins) and depends on the approval of the person(s) in charge for the financial transaction between seller and buyer to be executed.\footnote{A mechanism known as ``escrow,'' detailed earlier. The administrator of the online marketplace, after confirmation from both the seller and buyer regarding the payment and receipt of the purchased merchandise, authorizes the definitive transaction of payment in cryptographic currency, collecting a portion of the amount for themselves (commission).} The possession of control over the virtual market environment allows it to have the power to permit or deny access of interested parties to commercial transactions. If the person responsible for the marketplace has control of both -- the virtual meeting space between buyers and sellers and the payment system -- it is said that they have absolute control over the operation of the anonymous market. If the person responsible for the marketplace has only control of the virtual space, and not of the payment system, we state that the control over the object is partial -- since a part of the control of the anonymous market's operations is at the disposal of another entity or institution.\footnote{The interpretation of absolute or partial control of the anonymous marketplace derives from the analyzed occurrences: if it is explicit that the anonymous marketplace operates with its own payment system, we say that the control is absolute. If it is not explicit, we say that the control of the anonymous marketplace is partial.}
+
+As with the previous group, in the ``Surveillance Circumvention'' group, all actors held some degree of \textbf{control} over objects relevant to the execution of their activities. The highlight is the absolute control of the functioning of the Tor anonymous network by the actor Tor Project -- responsible for its administration, maintenance, and improvement. From the analysis of occurrences, it was verified that the Tor Project has absolute control over the removal of any suspect node from the anonymous network -- which occurred on some occasions. Furthermore, the Tor Project also has control over the creation of ``bridges'' that allow access to the network by users who find themselves, in some way, blocked from accessing the network through standard means.
+
+Observing the diffusion data of the ``Journalism \& Whistleblowing'' group, it is possible to perceive that the majority of actors who compose it held some degree of control over objects considered relevant for achieving desired outcomes. This control was, predominantly, partial -- with 19 of the occurrences (out of a total of 21 occurrences).
+
+In the ``Digital Security'' group, it was verified that the majority of actors who compose the group have some degree of \textbf{control} over objects pertinent to the achievement of their objectives operated through the Tor anonymous network. These objects range from servers located on the network to the anonymous network itself. Of the total of 7 occurrences, the actors have partial control over objects in 3 occurrences; and absolute control in another 3 occurrences. The only actor without any control over an object relevant to the operation of their activities is the security specialist Dan Egerstad, who observed security breaches of embassies on the anonymous network.
+
+Regarding the ``Privacy'' group, from the analyzed occurrence, it was possible to identify that the actor held partial \textbf{control} over the servers that contain the collection of personal information of numerous individuals.
+
+% CHART 6 - (\%) Occurrences by Thematic Group in the Control Dimension (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 6 -- (\%) Occurrences by Thematic Group in the Control Dimension (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar stacked,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=120,
+    ytick={0,10,20,30,40,50,60,70,80,90,100},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={None, Partial, Absolute},
+    xtick=data,
+    xlabel={\textbf{Control}},
+    bar width=30pt,
+    width=0.52\textwidth,
+    height=11cm,
+    clip=false,
+    legend style={at={(0.5,-0.25)}, anchor=north, font=\footnotesize, legend columns=2},
+    legend cell align={left},
+    enlarge x limits=0.30,
+]
+% Digital Security (bottom)
+\addplot[fill=blue!80, draw=black] coordinates {
+    (None, 50) (Partial, 5.5) (Absolute, 3.6)
+};
+% Online Marketplace
+\addplot[fill=blue!55, draw=black] coordinates {
+    (None, 0) (Partial, 52.7) (Absolute, 33.7)
+};
+% Journalism & Whistleblowing
+\addplot[fill=blue!35, draw=black] coordinates {
+    (None, 50) (Partial, 34.5) (Absolute, 1.2)
+};
+% Surveillance Circumvention
+\addplot[fill=blue!20, draw=black] coordinates {
+    (None, 0) (Partial, 5.5) (Absolute, 61.4)
+};
+% Privacy
+\addplot[fill=blue!5, draw=black] coordinates {
+    (None, 0) (Partial, 1.8) (Absolute, 0)
+};
+\legend{Digital Security, Online Marketplace, Journalism \& Whistleblowing, Surveillance Circumvention, Privacy}
+
+% Save coordinates for labels
+% None bar: DS=50%(0-50), J&W=50%(50-100)
+\coordinate (N50a) at (axis cs:None, 25);
+\coordinate (N50b) at (axis cs:None, 75);
+% Partial bar: DS=5.5%(0-5.5), OM=52.7%(5.5-58.2), J&W=34.5%(58.2-92.7), SC=5.5%(92.7-98.2), P=1.8%(98.2-100)
+\coordinate (P6a) at (axis cs:Partial, 2.75);
+\coordinate (P53) at (axis cs:Partial, 31.85);
+\coordinate (P35) at (axis cs:Partial, 75.45);
+\coordinate (P6b) at (axis cs:Partial, 95.45);
+\coordinate (P2) at (axis cs:Partial, 99.1);
+% Absolute bar: DS=3.6%(0-3.6), OM=33.7%(3.6-37.3), J&W=1.2%(37.3-38.5), SC=61.4%(38.5-99.9)
+\coordinate (A4) at (axis cs:Absolute, 1.8);
+\coordinate (A34) at (axis cs:Absolute, 20.45);
+\coordinate (A1) at (axis cs:Absolute, 37.9);
+\coordinate (A61) at (axis cs:Absolute, 69.2);
+
+\end{axis}
+
+% Labels on bars
+% None bar
+\node[font=\footnotesize\bfseries, text=white] at (N50a) {50\%};
+\node[font=\footnotesize\bfseries] at (N50b) {50\%};
+
+% Partial bar — small segments get labels to the side with horizontal connector lines
+\node[font=\footnotesize\bfseries, text=white] at (P6a) {6\%};
+\node[font=\footnotesize\bfseries, text=white] at (P53) {53\%};
+\node[font=\footnotesize\bfseries] at (P35) {34\%};
+\node[font=\footnotesize\bfseries, anchor=west] (P6blabel) at ([xshift=18pt]P6b) {6\%};
+\draw[thin, gray] (P6b) -- (P6blabel.west);
+\node[font=\footnotesize\bfseries, anchor=west] (P2label) at ([xshift=18pt]P2) {2\%};
+\draw[thin, gray] (P2) -- (P2label.west);
+
+% Absolute bar
+\node[font=\footnotesize\bfseries, text=white] at (A4) {4\%};
+\node[font=\footnotesize\bfseries, text=white] at (A34) {34\%};
+\node[font=\footnotesize\bfseries, anchor=east] (A1label) at ([xshift=-18pt]A1) {1\%};
+\draw[thin, gray] (A1) -- (A1label.east);
+\node[font=\footnotesize\bfseries] at (A61) {61\%};
+
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+If we observe statistical data comparing percentages of thematic groups among themselves, in the control dimension, we observe that the thematic groups ``Journalism \& Whistleblowing'' and ``Digital Security'' were those that least presented control over some relevant object to their operations in percentage terms. Both groups had a single occurrence for ``no'' control. The ``Online Marketplace'' group was the one that most obtained partial control over objects (in this case, the virtual meeting environments between buyers and sellers and the payment system through which financial transactions were carried out), followed by the ``Journalism \& Whistleblowing'' group, whose actors partially controlled information, documents, and confidential files (in the case of whistleblowers) and secure channels for the transmission and publication of this information (in the case of journalists and activists). The highest percentage of absolute control was relative to the ``Surveillance Circumvention'' thematic group, whose actor Tor Project is responsible for the maintenance and administration of the anonymous network.
+
+% CHART 7 - DIFFUSION OF POWER, DIMENSION "CONTROL", (%) OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\pie[
+    radius=3.5,
+    hide number,
+    color={blue!60, blue!35, blue!15},
+    sum=auto,
+    after number=\%,
+]{
+    1/{},
+    40/{},
+    59/{}
+}
+% Percentage labels (consistent size with other charts)
+\node[font=\footnotesize\bfseries] at (75.6:2.2) {40\%};
+\node[font=\footnotesize\bfseries, text=white] at (253.8:2.2) {59\%};
+% 1% slice: label outside with connector line
+\node[font=\footnotesize\bfseries, anchor=south] (lbl1) at (1.8:4.3) {1\%};
+\draw[thin, gray] (1.8:3.5) -- (lbl1.south);
+% Title
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 7 -- Diffusion of Power, Dimension ``Control''\\(\%) Occurrences (2007--2017)};
+% Legend at bottom
+\node[font=\footnotesize, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!60, draw=black] (0,0) rectangle (0.3,0.3);} None \quad
+    \tikz{\fill[blue!35, draw=black] (0,0) rectangle (0.3,0.3);} Partial \quad
+    \tikz{\fill[blue!15, draw=black] (0,0) rectangle (0.3,0.3);} Absolute
+};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+In the ``control'' dimension, we observe from the chart that in 59\% of occurrences analyzed in this research, the non-state actor originating from the knowledge structure held absolute control of an object while exercising activities in the cyber domain. In 39\% of occurrences, this control was partial; while in only 2\% of occurrences the control was none. In other words, in 98\% of occurrences the non-state actor held some degree of control over objects originating from the knowledge structure during their operations on the Tor anonymous network.
+
+\subsection{The ``Outcomes'' Dimension}
+
+In the \textbf{outcomes} dimension, in the majority of occurrences (42 occurrences) of actors in the ``Online Marketplace'' group, it was possible to observe alteration of the status quo with effects on reality. In only 15 occurrences was non-alteration of the status quo verified -- that is, its maintenance. In other words, the analyzed occurrences provided sufficient input to affirm that, by reason of using the low-latency anonymous network Tor, the online marketplaces that operate on this network managed to effectively commercialize illicit substances, such as drugs and narcotics in general, in the real world.
+
+In the ``Surveillance Circumvention'' group, it is observed that, in the \textbf{outcomes} dimension, there was no alteration of the status quo in the real world in the majority of occurrences. The status quo in question reflects two situations: first, the maintenance of the blocking and censorship of certain content on the Internet by authoritarian countries; second, the maintenance of the anonymity of operations and identities of users who use the Tor anonymous network. The first situation reflects a reduced number of occurrences, while the second situation reflects the majority of analyzed occurrences. In approximately 65\% of occurrences there was no alteration of the status quo mentioned above; while in approximately 35\% of occurrences, there was alteration of these status quo conditions.
+
+Regarding the ``Journalism \& Whistleblowing'' group, it is possible to affirm that there was alteration of the status quo, with consequences for the real world, in the majority of occurrences: 13 alterations of the status quo compared to 8 occurrences of non-alteration.
+
+In the ``Digital Security'' group, in 70\% of occurrences of this thematic group there was alteration of the status quo in the real geographical world. In 30\% of occurrences the status quo remained unaltered.
+
+Regarding the ``Privacy'' group, no alteration of the status quo in the real world was observed from the occurrences -- evidence that, despite gathering personal data and information of individuals, this information was not used in the real world for any purpose.
+
+% CHART 8 - (\%) Occurrences by Thematic Group in the Outcomes Dimension (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 8 -- (\%) Occurrences by Thematic Group in the Outcomes Dimension (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar stacked,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=115,
+    ytick={0,10,20,30,40,50,60,70,80,90,100},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={Non-alteration, Alteration},
+    xtick=data,
+    xlabel={\textbf{Outcomes}},
+    bar width=30pt,
+    width=0.52\textwidth,
+    height=8cm,
+    clip=false,
+    legend style={at={(0.5,-0.25)}, anchor=north, font=\footnotesize, legend columns=2},
+    legend cell align={left},
+    enlarge x limits=0.45,
+]
+% Digital Security (bottom)
+\addplot[fill=blue!80, draw=black] coordinates {
+    (Non-alteration, 3.3) (Alteration, 6.3)
+};
+% Online Marketplace
+\addplot[fill=blue!55, draw=black] coordinates {
+    (Non-alteration, 24.6) (Alteration, 53.2)
+};
+% Journalism & Whistleblowing
+\addplot[fill=blue!35, draw=black] coordinates {
+    (Non-alteration, 13.1) (Alteration, 16.5)
+};
+% Surveillance Circumvention
+\addplot[fill=blue!20, draw=black] coordinates {
+    (Non-alteration, 57.4) (Alteration, 24.1)
+};
+% Privacy
+\addplot[fill=blue!5, draw=black] coordinates {
+    (Non-alteration, 1.6) (Alteration, 0)
+};
+\legend{Digital Security, Online Marketplace, Journalism \& Whistleblowing, Surveillance Circumvention, Privacy}
+
+% Save coordinates for labels
+% Non-alt bar: DS=3.3%(0-3.3), OM=24.6%(3.3-27.9), J&W=13.1%(27.9-41), SC=57.4%(41-98.4), P=1.6%(98.4-100)
+\coordinate (NA3) at (axis cs:Non-alteration, 1.65);
+\coordinate (NA25) at (axis cs:Non-alteration, 15.6);
+\coordinate (NA13) at (axis cs:Non-alteration, 34.45);
+\coordinate (NA57) at (axis cs:Non-alteration, 69.7);
+\coordinate (NA2) at (axis cs:Non-alteration, 99.2);
+% Alteration bar: DS=6.3%(0-6.3), OM=53.2%(6.3-59.5), J&W=16.5%(59.5-76), SC=24.1%(76-100.1)
+\coordinate (AL6) at (axis cs:Alteration, 3.15);
+\coordinate (AL53) at (axis cs:Alteration, 32.9);
+\coordinate (AL17) at (axis cs:Alteration, 67.75);
+\coordinate (AL24) at (axis cs:Alteration, 88.05);
+
+\end{axis}
+
+% Labels
+% Non-alteration bar
+\node[font=\footnotesize\bfseries, anchor=south] at (NA3) {3\%};
+\node[font=\footnotesize\bfseries, text=white] at (NA25) {25\%};
+\node[font=\footnotesize\bfseries] at (NA13) {13\%};
+\node[font=\footnotesize\bfseries] at (NA57) {57\%};
+% 2% — small segment, label to the side with horizontal connector line
+\node[font=\footnotesize\bfseries, anchor=west] (NA2label) at ([xshift=18pt]NA2) {2\%};
+\draw[thin, gray] (NA2) -- (NA2label.west);
+
+% Alteration bar
+\node[font=\footnotesize\bfseries, text=white] at (AL6) {6\%};
+\node[font=\footnotesize\bfseries, text=white] at (AL53) {53\%};
+\node[font=\footnotesize\bfseries] at (AL17) {16\%};
+\node[font=\footnotesize\bfseries] at (AL24) {24\%};
+
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+In the outcomes dimension, we verify through the percentage chart of occurrences that the theme that most achieved alteration of the status quo, with consequences for the real geographical world, was the ``Online Marketplace'' group. The arrest and trial of administrators of anonymous online markets evidence the commercial transaction of illicit substances, drugs, and narcotics through the low-latency Tor network. In general, as noted by Sedghi (2014), there was an increase in the consumption of these substances due to relatively secure access to the anonymous network's markets. The thematic group that least achieved alteration of the status quo in the real world was ``Surveillance Circumvention.'' The hypothesis is that shielding against surveillance perpetrated in the cyber domain is a passive act -- that is, it will only affect the status quo if the entity responsible for surveillance succeeds and acts upon the individual under surveillance -- and not the contrary.
+
+% CHART 9 - DIFFUSION OF POWER, DIMENSION "OUTCOMES", (%) OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\pie[
+    radius=3.5,
+    hide number,
+    color={blue!40, blue!15},
+    sum=auto,
+    after number=\%,
+]{
+    45/{},
+    55/{}
+}
+% Percentage labels inside slices
+% pgf-pie: starts at 90° clockwise. Non-alt mid=90-81=9°, Alt mid=90-162-99=-171°(=189°)
+\node[font=\footnotesize\bfseries] at (9:2.2) {45\%};
+\node[font=\footnotesize\bfseries] at (189:2.2) {55\%};
+% Title
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 9 -- Diffusion of Power, Dimension ``Outcomes''\\(\%) Occurrences (2007--2017)};
+% Legend at bottom
+\node[font=\footnotesize, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!40, draw=black] (0,0) rectangle (0.3,0.3);} Non-alteration \quad
+    \tikz{\fill[blue!15, draw=black] (0,0) rectangle (0.3,0.3);} Alteration
+};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+Regarding the last dimension, ``outcomes,'' it was possible to verify that in 56\% of occurrences analyzed by this research there was alteration of the status quo with consequences for the real geographical world. That is, in more than half of the occurrences, non-state actors achieved success in altering the status quo by reason of using the low-latency anonymous network.\footnote{With the exception of the actor Tor Project, we can say that the actors who achieve success in altering the status quo act in the direction of achieving desired outcomes. The Tor Project, on the other hand, acts with the purpose of non-alteration of the status quo in the real world, since this organization (responsible for performing maintenance and improvements on the network) seeks the protection of users' privacy and the anonymity of exchanged messages. The alteration of the status quo indicates, at times, that the anonymity of users and messages did not have effectiveness.}
+
+\subsection{Analysis of diffusion of power in the Context of the Tor Anonymous Network}
+
+We believe that sufficient evidence exists to believe that the diffusion of power operates in three distinct dimensions. We can affirm that the diffusion of power is underway when there is growth of non-state authorities (or at least the maintenance of already existing non-state authorities); when non-state actors are capable of controlling objects relevant for achieving desired ends; and when these, through their actions, succeed in altering the status quo -- whose consequences affect the real geographical world (since in this research we addressed the activities and operations of subjects in the cyber domain). The three dimensions denote power as they corroborate the analytical framework proposed by Strange (1988) that culminated in the field of IPE. Although she herself did not address the three dimensions, when we analyze the phenomenon of diffusion of power through these dimensions, we are able to ascertain its existence or absence.
+
+This affirmation derives from the following logic: when there is concentration of power in the figure of the State -- that is, the opposite of the diffusion of power defined by Strange (1996) -- this means, for the three dimensions, that (1) the State has the leadership of authority in matters derived from the values originating from social organization -- which includes the knowledge structure; (2) the State is the one that most holds control over objects pertinent to achieving results desired by it; (3) the power of the State is such that it succeeds in altering the status quo -- that is, it is capable of achieving the objectives it aims for. The diffusion of power reflects in these three dimensions the contrary logic: the State does not hold leadership in the primary structures (and, in this case, in the knowledge structure); it is not the only one with the capacity to control objects relevant for the achievement of proposed objectives; and it is not the only one capable of making alterations to the status quo. However, it should be noted that this dissertation is exploratory in character -- that is, it does not intend to offer fixed answers on a challenging topic, although it reflects on specific points of the literature.
+
+In sum, we observe the diffusion of power occurring in the three dimensions for the majority of non-state actors positioned in the knowledge structure who carried out their operations via the low-latency anonymous network Tor.
+
+
+\section{Conclusion}
+
+This chapter sought to carry out an analysis of the diffusion of power in three dimensions. This analysis focused on a database assembled from journalistic articles originating from the ten largest newspapers in the world by number of users per click. This database brought non-state actors, positioned within the knowledge structure, as protagonists of actions perpetrated via the low-latency anonymous network ``The Onion Router.'' This network became known for offering an alternative communication channel in the cyber domain -- beyond the reach of governmental authorities -- that aims to ensure the privacy of users and the anonymity of messages exchanged through it. The technology developed by the organization responsible for the Tor network is derived from knowledge and information about cryptographic and routing techniques, among others, that accumulated primarily during the 1990s. This network became especially known to the general public after 2013 and 2014, when media outlets published news related to the anonymous markets that operate on it, as well as arrests and trials of those responsible, in addition to being commonly associated with whistleblowers and journalists due to the protection it provides to communications.
+
+From the conceptual foundation regarding the Tor anonymous network as an important part of the knowledge structure in the 21st century, explored in chapter two, we sought to present the method by which we elaborated the database used in this research. This database was the result of investigations of news articles published by 22 newspapers in total, originating from four countries: the United States, England, India, and China. Through each newspaper article, we sought to identify non-state actors positioned in the knowledge structure, as well as their actions carried out via the Tor anonymous network. The composition of this research's database resulted in 139 rows and 14 columns, and allowed us to identify 25 actors, which we grouped into 5 thematic groups -- since it was possible to identify similar themes in the journalistic articles. From the available information, we were able to carry out the analyses of diffusion of power in three dimensions and according to the theoretical framework presented in the first chapter of this dissertation.
+
+Our analysis of diffusion of power, in addition to encompassing the three dimensions, aimed at presenting three segments, as a means of providing a systematic view of the database. These three segments were about: the actors, the thematic groups, and the total occurrences between the years 2007 and 2017. In general, we were able to observe that, in the authority dimension, the Tor anonymous network contributed to the increase -- or at least stability -- of the authority of actors in the majority of occurrences. In the control dimension, we identified that nearly all non-state actors possessed control over objects in the cyber domain. These objects were pertinent to achieving the results desired by them. In other words, we verified that the majority of non-state actors held some degree of control over objects in the course of their operations. And these objects, which operate in the cyber domain, are abstract constructions born of accumulated knowledge originating, in our analysis, from civil society. The command of these objects by non-state actors in our analysis demonstrates the relevance of knowledge and information in cyberspace -- which leads us to suppose that the cyber dimension is an important domain for the knowledge structure in the 21st century. In the outcomes dimension, it was possible to observe that in more than half of the occurrences, non-state actors succeeded in altering the status quo with consequences for geographical reality (that is, non-cybernetic).\footnote{With the exception of the actor Tor Project.} This success in altering outcomes occurred by reason of using the Tor anonymous network which, through its technology and nature, allows the dynamic through which the actors operated in order to achieve these results.
+
+In sum, the Tor anonymous network contributes to the diffusion of power in the three dimensions based on its technological specificities that differ from other communication channels. In our analysis, this diffusion of power was evidenced in the majority of occurrences in the database used by us for the purposes of this research. It should be noted that this database is the result of journalistic approaches that aim to notify the public about questions of relevant general interest. It was through the Tor network that various actors were able to carry out their operations in order to affect the status quo. Thus, the difference between the Dark Web and the Surface Web is highlighted for purposes of outcomes and for the diffusion of power. There are reasons to believe that the actors analyzed in this research would not have achieved the same results had they operated through other communication channels with technology and nature different from the anonymous network -- such as, for example, the Surface Web.
