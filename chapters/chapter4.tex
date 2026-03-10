@@ -510,3 +510,135 @@ If we observe statistical data comparing percentages of thematic groups among th
 
 In the ``control'' dimension, we observe from the chart that in 59\% of occurrences analyzed in this research, the non-state actor originating from the knowledge structure held absolute control of an object while exercising activities in the cyber domain. In 39\% of occurrences, this control was partial; while in only 2\% of occurrences the control was none. In other words, in 98\% of occurrences the non-state actor held some degree of control over objects originating from the knowledge structure during their operations on the Tor anonymous network.
 
+\subsection{The ``Outcomes'' Dimension}
+
+In the \textbf{outcomes} dimension, in the majority of occurrences (42 occurrences) of actors in the ``Online Marketplace'' group, it was possible to observe alteration of the status quo with effects on reality. In only 15 occurrences was non-alteration of the status quo verified -- that is, its maintenance. In other words, the analyzed occurrences provided sufficient input to affirm that, by reason of using the low-latency anonymous network Tor, the online marketplaces that operate on this network managed to effectively commercialize illicit substances, such as drugs and narcotics in general, in the real world.
+
+In the ``Surveillance Circumvention'' group, it is observed that, in the \textbf{outcomes} dimension, there was no alteration of the status quo in the real world in the majority of occurrences. The status quo in question reflects two situations: first, the maintenance of the blocking and censorship of certain content on the Internet by authoritarian countries; second, the maintenance of the anonymity of operations and identities of users who use the Tor anonymous network. The first situation reflects a reduced number of occurrences, while the second situation reflects the majority of analyzed occurrences. In approximately 65\% of occurrences there was no alteration of the status quo mentioned above; while in approximately 35\% of occurrences, there was alteration of these status quo conditions.
+
+Regarding the ``Journalism \& Whistleblowing'' group, it is possible to affirm that there was alteration of the status quo, with consequences for the real world, in the majority of occurrences: 13 alterations of the status quo compared to 8 occurrences of non-alteration.
+
+In the ``Digital Security'' group, in 70\% of occurrences of this thematic group there was alteration of the status quo in the real geographical world. In 30\% of occurrences the status quo remained unaltered.
+
+Regarding the ``Privacy'' group, no alteration of the status quo in the real world was observed from the occurrences -- evidence that, despite gathering personal data and information of individuals, this information was not used in the real world for any purpose.
+
+% CHART 8 - (\%) Occurrences by Thematic Group in the Outcomes Dimension (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 8 -- (\%) Occurrences by Thematic Group in the Outcomes Dimension (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar stacked,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=115,
+    ytick={0,10,20,30,40,50,60,70,80,90,100},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={Non-alteration, Alteration},
+    xtick=data,
+    xlabel={\textbf{Outcomes}},
+    bar width=30pt,
+    width=0.52\textwidth,
+    height=8cm,
+    clip=false,
+    legend style={at={(0.5,-0.25)}, anchor=north, font=\footnotesize, legend columns=2},
+    legend cell align={left},
+    enlarge x limits=0.45,
+]
+% Digital Security (bottom)
+\addplot[fill=blue!80, draw=black] coordinates {
+    (Non-alteration, 3.3) (Alteration, 6.3)
+};
+% Online Marketplace
+\addplot[fill=blue!55, draw=black] coordinates {
+    (Non-alteration, 24.6) (Alteration, 53.2)
+};
+% Journalism & Whistleblowing
+\addplot[fill=blue!35, draw=black] coordinates {
+    (Non-alteration, 13.1) (Alteration, 16.5)
+};
+% Surveillance Circumvention
+\addplot[fill=blue!20, draw=black] coordinates {
+    (Non-alteration, 57.4) (Alteration, 24.1)
+};
+% Privacy
+\addplot[fill=blue!5, draw=black] coordinates {
+    (Non-alteration, 1.6) (Alteration, 0)
+};
+\legend{Digital Security, Online Marketplace, Journalism \& Whistleblowing, Surveillance Circumvention, Privacy}
+
+% Save coordinates for labels
+% Non-alt bar: DS=3.3%(0-3.3), OM=24.6%(3.3-27.9), J&W=13.1%(27.9-41), SC=57.4%(41-98.4), P=1.6%(98.4-100)
+\coordinate (NA3) at (axis cs:Non-alteration, 1.65);
+\coordinate (NA25) at (axis cs:Non-alteration, 15.6);
+\coordinate (NA13) at (axis cs:Non-alteration, 34.45);
+\coordinate (NA57) at (axis cs:Non-alteration, 69.7);
+\coordinate (NA2) at (axis cs:Non-alteration, 99.2);
+% Alteration bar: DS=6.3%(0-6.3), OM=53.2%(6.3-59.5), J&W=16.5%(59.5-76), SC=24.1%(76-100.1)
+\coordinate (AL6) at (axis cs:Alteration, 3.15);
+\coordinate (AL53) at (axis cs:Alteration, 32.9);
+\coordinate (AL17) at (axis cs:Alteration, 67.75);
+\coordinate (AL24) at (axis cs:Alteration, 88.05);
+
+\end{axis}
+
+% Labels
+% Non-alteration bar
+\node[font=\footnotesize\bfseries, anchor=south] at (NA3) {3\%};
+\node[font=\footnotesize\bfseries, text=white] at (NA25) {25\%};
+\node[font=\footnotesize\bfseries] at (NA13) {13\%};
+\node[font=\footnotesize\bfseries] at (NA57) {57\%};
+% 2% — small segment, label to the side with horizontal connector line
+\node[font=\footnotesize\bfseries, anchor=west] (NA2label) at ([xshift=18pt]NA2) {2\%};
+\draw[thin, gray] (NA2) -- (NA2label.west);
+
+% Alteration bar
+\node[font=\footnotesize\bfseries, text=white] at (AL6) {6\%};
+\node[font=\footnotesize\bfseries, text=white] at (AL53) {53\%};
+\node[font=\footnotesize\bfseries] at (AL17) {16\%};
+\node[font=\footnotesize\bfseries] at (AL24) {24\%};
+
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+In the outcomes dimension, we verify through the percentage chart of occurrences that the theme that most achieved alteration of the status quo, with consequences for the real geographical world, was the ``Online Marketplace'' group. The arrest and trial of administrators of anonymous online markets evidence the commercial transaction of illicit substances, drugs, and narcotics through the low-latency Tor network. In general, as noted by Sedghi (2014), there was an increase in the consumption of these substances due to relatively secure access to the anonymous network's markets. The thematic group that least achieved alteration of the status quo in the real world was ``Surveillance Circumvention.'' The hypothesis is that shielding against surveillance perpetrated in the cyber domain is a passive act -- that is, it will only affect the status quo if the entity responsible for surveillance succeeds and acts upon the individual under surveillance -- and not the contrary.
+
+% CHART 9 - DIFFUSION OF POWER, DIMENSION "OUTCOMES", (%) OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\pie[
+    radius=3.5,
+    hide number,
+    color={blue!40, blue!15},
+    sum=auto,
+    after number=\%,
+]{
+    45/{},
+    55/{}
+}
+% Percentage labels inside slices
+% pgf-pie: starts at 90° clockwise. Non-alt mid=90-81=9°, Alt mid=90-162-99=-171°(=189°)
+\node[font=\footnotesize\bfseries] at (9:2.2) {45\%};
+\node[font=\footnotesize\bfseries] at (189:2.2) {55\%};
+% Title
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 9 -- Diffusion of Power, Dimension ``Outcomes''\\(\%) Occurrences (2007--2017)};
+% Legend at bottom
+\node[font=\footnotesize, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!40, draw=black] (0,0) rectangle (0.3,0.3);} Non-alteration \quad
+    \tikz{\fill[blue!15, draw=black] (0,0) rectangle (0.3,0.3);} Alteration
+};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+Regarding the last dimension, ``outcomes,'' it was possible to verify that in 56\% of occurrences analyzed by this research there was alteration of the status quo with consequences for the real geographical world. That is, in more than half of the occurrences, non-state actors achieved success in altering the status quo by reason of using the low-latency anonymous network.\footnote{With the exception of the actor Tor Project, we can say that the actors who achieve success in altering the status quo act in the direction of achieving desired outcomes. The Tor Project, on the other hand, acts with the purpose of non-alteration of the status quo in the real world, since this organization (responsible for performing maintenance and improvements on the network) seeks the protection of users' privacy and the anonymity of exchanged messages. The alteration of the status quo indicates, at times, that the anonymity of users and messages did not have effectiveness.}
+
+\subsection{Analysis of diffusion of power in the Context of the Tor Anonymous Network}
+
+We believe that sufficient evidence exists to believe that the diffusion of power operates in three distinct dimensions. We can affirm that the diffusion of power is underway when there is growth of non-state authorities (or at least the maintenance of already existing non-state authorities); when non-state actors are capable of controlling objects relevant for achieving desired ends; and when these, through their actions, succeed in altering the status quo -- whose consequences affect the real geographical world (since in this research we addressed the activities and operations of subjects in the cyber domain). The three dimensions denote power as they corroborate the analytical framework proposed by Strange (1988) that culminated in the field of IPE. Although she herself did not address the three dimensions, when we analyze the phenomenon of diffusion of power through these dimensions, we are able to ascertain its existence or absence.
+
+This affirmation derives from the following logic: when there is concentration of power in the figure of the State -- that is, the opposite of the diffusion of power defined by Strange (1996) -- this means, for the three dimensions, that (1) the State has the leadership of authority in matters derived from the values originating from social organization -- which includes the knowledge structure; (2) the State is the one that most holds control over objects pertinent to achieving results desired by it; (3) the power of the State is such that it succeeds in altering the status quo -- that is, it is capable of achieving the objectives it aims for. The diffusion of power reflects in these three dimensions the contrary logic: the State does not hold leadership in the primary structures (and, in this case, in the knowledge structure); it is not the only one with the capacity to control objects relevant for the achievement of proposed objectives; and it is not the only one capable of making alterations to the status quo. However, it should be noted that this dissertation is exploratory in character -- that is, it does not intend to offer fixed answers on a challenging topic, although it reflects on specific points of the literature.
+
+In sum, we observe the diffusion of power occurring in the three dimensions for the majority of non-state actors positioned in the knowledge structure who carried out their operations via the low-latency anonymous network Tor.
