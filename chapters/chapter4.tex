@@ -371,3 +371,142 @@ It is possible to observe that in the ``authority'' dimension, the highest perce
 
 Thus, in the set of occurrences analyzed by this research, we observe that in approximately 59\% of them, the authority of the non-state actor, belonging to the knowledge structure, grew or at least did not diminish by reason of using the low-latency anonymous network Tor.
 
+\subsection{The ``Control'' Dimension}
+
+In the \textbf{control} dimension, it is noted that all actors in the ``Online Marketplace'' category held some degree of control over relevant objects -- in this case, the online marketplace itself and payment mechanisms. In 29 occurrences, partial control of the anonymous market over the virtual meeting space between buyers and sellers and the payment system used by them to carry out commercial transactions was observed. In 28 occurrences, absolute control of the anonymous markets was observed. There were no cases in which control was considered ``none.''
+
+In the news articles published on the topic, in a significant portion, the absolute control of the online market is verified. In these occurrences, the control of the market is absolute because it is responsible for providing the virtual meeting space between buyers and sellers and also the payment system in its entirety -- not relying on third parties, such as banks or card networks, etc. The payment system, in this case, is based on cryptographic virtual currency (generally Bitcoins) and depends on the approval of the person(s) in charge for the financial transaction between seller and buyer to be executed.\footnote{A mechanism known as ``escrow,'' detailed earlier. The administrator of the online marketplace, after confirmation from both the seller and buyer regarding the payment and receipt of the purchased merchandise, authorizes the definitive transaction of payment in cryptographic currency, collecting a portion of the amount for themselves (commission).} The possession of control over the virtual market environment allows it to have the power to permit or deny access of interested parties to commercial transactions. If the person responsible for the marketplace has control of both -- the virtual meeting space between buyers and sellers and the payment system -- it is said that they have absolute control over the operation of the anonymous market. If the person responsible for the marketplace has only control of the virtual space, and not of the payment system, we state that the control over the object is partial -- since a part of the control of the anonymous market's operations is at the disposal of another entity or institution.\footnote{The interpretation of absolute or partial control of the anonymous marketplace derives from the analyzed occurrences: if it is explicit that the anonymous marketplace operates with its own payment system, we say that the control is absolute. If it is not explicit, we say that the control of the anonymous marketplace is partial.}
+
+As with the previous group, in the ``Surveillance Circumvention'' group, all actors held some degree of \textbf{control} over objects relevant to the execution of their activities. The highlight is the absolute control of the functioning of the Tor anonymous network by the actor Tor Project -- responsible for its administration, maintenance, and improvement. From the analysis of occurrences, it was verified that the Tor Project has absolute control over the removal of any suspect node from the anonymous network -- which occurred on some occasions. Furthermore, the Tor Project also has control over the creation of ``bridges'' that allow access to the network by users who find themselves, in some way, blocked from accessing the network through standard means.
+
+Observing the diffusion data of the ``Journalism \& Whistleblowing'' group, it is possible to perceive that the majority of actors who compose it held some degree of control over objects considered relevant for achieving desired outcomes. This control was, predominantly, partial -- with 19 of the occurrences (out of a total of 21 occurrences).
+
+In the ``Digital Security'' group, it was verified that the majority of actors who compose the group have some degree of \textbf{control} over objects pertinent to the achievement of their objectives operated through the Tor anonymous network. These objects range from servers located on the network to the anonymous network itself. Of the total of 7 occurrences, the actors have partial control over objects in 3 occurrences; and absolute control in another 3 occurrences. The only actor without any control over an object relevant to the operation of their activities is the security specialist Dan Egerstad, who observed security breaches of embassies on the anonymous network.
+
+Regarding the ``Privacy'' group, from the analyzed occurrence, it was possible to identify that the actor held partial \textbf{control} over the servers that contain the collection of personal information of numerous individuals.
+
+% CHART 6 - (\%) Occurrences by Thematic Group in the Control Dimension (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={\textbf{Chart 6 -- (\%) Occurrences by Thematic Group in the Control Dimension (2007--2017)}},
+    title style={align=center, font=\small\bfseries},
+    ybar stacked,
+    ylabel={(\%) Occurrences},
+    ymin=0, ymax=120,
+    ytick={0,10,20,30,40,50,60,70,80,90,100},
+    yticklabel={\pgfmathprintnumber\tick\%},
+    symbolic x coords={None, Partial, Absolute},
+    xtick=data,
+    xlabel={\textbf{Control}},
+    bar width=30pt,
+    width=0.52\textwidth,
+    height=11cm,
+    clip=false,
+    legend style={at={(0.5,-0.25)}, anchor=north, font=\footnotesize, legend columns=2},
+    legend cell align={left},
+    enlarge x limits=0.30,
+]
+% Digital Security (bottom)
+\addplot[fill=blue!80, draw=black] coordinates {
+    (None, 50) (Partial, 5.5) (Absolute, 3.6)
+};
+% Online Marketplace
+\addplot[fill=blue!55, draw=black] coordinates {
+    (None, 0) (Partial, 52.7) (Absolute, 33.7)
+};
+% Journalism & Whistleblowing
+\addplot[fill=blue!35, draw=black] coordinates {
+    (None, 50) (Partial, 34.5) (Absolute, 1.2)
+};
+% Surveillance Circumvention
+\addplot[fill=blue!20, draw=black] coordinates {
+    (None, 0) (Partial, 5.5) (Absolute, 61.4)
+};
+% Privacy
+\addplot[fill=blue!5, draw=black] coordinates {
+    (None, 0) (Partial, 1.8) (Absolute, 0)
+};
+\legend{Digital Security, Online Marketplace, Journalism \& Whistleblowing, Surveillance Circumvention, Privacy}
+
+% Save coordinates for labels
+% None bar: DS=50%(0-50), J&W=50%(50-100)
+\coordinate (N50a) at (axis cs:None, 25);
+\coordinate (N50b) at (axis cs:None, 75);
+% Partial bar: DS=5.5%(0-5.5), OM=52.7%(5.5-58.2), J&W=34.5%(58.2-92.7), SC=5.5%(92.7-98.2), P=1.8%(98.2-100)
+\coordinate (P6a) at (axis cs:Partial, 2.75);
+\coordinate (P53) at (axis cs:Partial, 31.85);
+\coordinate (P35) at (axis cs:Partial, 75.45);
+\coordinate (P6b) at (axis cs:Partial, 95.45);
+\coordinate (P2) at (axis cs:Partial, 99.1);
+% Absolute bar: DS=3.6%(0-3.6), OM=33.7%(3.6-37.3), J&W=1.2%(37.3-38.5), SC=61.4%(38.5-99.9)
+\coordinate (A4) at (axis cs:Absolute, 1.8);
+\coordinate (A34) at (axis cs:Absolute, 20.45);
+\coordinate (A1) at (axis cs:Absolute, 37.9);
+\coordinate (A61) at (axis cs:Absolute, 69.2);
+
+\end{axis}
+
+% Labels on bars
+% None bar
+\node[font=\footnotesize\bfseries, text=white] at (N50a) {50\%};
+\node[font=\footnotesize\bfseries] at (N50b) {50\%};
+
+% Partial bar — small segments get labels to the side with horizontal connector lines
+\node[font=\footnotesize\bfseries, text=white] at (P6a) {6\%};
+\node[font=\footnotesize\bfseries, text=white] at (P53) {53\%};
+\node[font=\footnotesize\bfseries] at (P35) {34\%};
+\node[font=\footnotesize\bfseries, anchor=west] (P6blabel) at ([xshift=18pt]P6b) {6\%};
+\draw[thin, gray] (P6b) -- (P6blabel.west);
+\node[font=\footnotesize\bfseries, anchor=west] (P2label) at ([xshift=18pt]P2) {2\%};
+\draw[thin, gray] (P2) -- (P2label.west);
+
+% Absolute bar
+\node[font=\footnotesize\bfseries, text=white] at (A4) {4\%};
+\node[font=\footnotesize\bfseries, text=white] at (A34) {34\%};
+\node[font=\footnotesize\bfseries, anchor=east] (A1label) at ([xshift=-18pt]A1) {1\%};
+\draw[thin, gray] (A1) -- (A1label.east);
+\node[font=\footnotesize\bfseries] at (A61) {61\%};
+
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+If we observe statistical data comparing percentages of thematic groups among themselves, in the control dimension, we observe that the thematic groups ``Journalism \& Whistleblowing'' and ``Digital Security'' were those that least presented control over some relevant object to their operations in percentage terms. Both groups had a single occurrence for ``no'' control. The ``Online Marketplace'' group was the one that most obtained partial control over objects (in this case, the virtual meeting environments between buyers and sellers and the payment system through which financial transactions were carried out), followed by the ``Journalism \& Whistleblowing'' group, whose actors partially controlled information, documents, and confidential files (in the case of whistleblowers) and secure channels for the transmission and publication of this information (in the case of journalists and activists). The highest percentage of absolute control was relative to the ``Surveillance Circumvention'' thematic group, whose actor Tor Project is responsible for the maintenance and administration of the anonymous network.
+
+% CHART 7 - DIFFUSION OF POWER, DIMENSION "CONTROL", (%) OCCURRENCES (2007-2017)
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\pie[
+    radius=3.5,
+    hide number,
+    color={blue!60, blue!35, blue!15},
+    sum=auto,
+    after number=\%,
+]{
+    1/{},
+    40/{},
+    59/{}
+}
+% Percentage labels (consistent size with other charts)
+\node[font=\footnotesize\bfseries] at (75.6:2.2) {40\%};
+\node[font=\footnotesize\bfseries, text=white] at (253.8:2.2) {59\%};
+% 1% slice: label outside with connector line
+\node[font=\footnotesize\bfseries, anchor=south] (lbl1) at (1.8:4.3) {1\%};
+\draw[thin, gray] (1.8:3.5) -- (lbl1.south);
+% Title
+\node[above, font=\small\bfseries, align=center] at (0,4.2) {Chart 7 -- Diffusion of Power, Dimension ``Control''\\(\%) Occurrences (2007--2017)};
+% Legend at bottom
+\node[font=\footnotesize, inner sep=0pt] at (0,-4.5) {%
+    \tikz{\fill[blue!60, draw=black] (0,0) rectangle (0.3,0.3);} None \quad
+    \tikz{\fill[blue!35, draw=black] (0,0) rectangle (0.3,0.3);} Partial \quad
+    \tikz{\fill[blue!15, draw=black] (0,0) rectangle (0.3,0.3);} Absolute
+};
+\end{tikzpicture}
+\caption*{Source: Author.}
+\end{figure}
+
+In the ``control'' dimension, we observe from the chart that in 59\% of occurrences analyzed in this research, the non-state actor originating from the knowledge structure held absolute control of an object while exercising activities in the cyber domain. In 39\% of occurrences, this control was partial; while in only 2\% of occurrences the control was none. In other words, in 98\% of occurrences the non-state actor held some degree of control over objects originating from the knowledge structure during their operations on the Tor anonymous network.
+
